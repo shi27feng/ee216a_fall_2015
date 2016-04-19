@@ -1,10 +1,9 @@
-Warning: Design 'NLC_1ch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : resources
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Mon Apr 18 19:39:02 2016
+Date   : Tue Apr 19 15:30:29 2016
 ****************************************
 
 Resource Sharing Report for design NLC_1ch in file ./NLC_1ch.v

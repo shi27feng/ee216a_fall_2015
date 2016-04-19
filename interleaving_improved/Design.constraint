@@ -1,11 +1,10 @@
-Warning: Design 'NLC_1ch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : constraint
         -verbose
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Mon Apr 18 19:39:02 2016
+Date   : Tue Apr 19 15:30:29 2016
 ****************************************
 
 
@@ -279,35 +278,28 @@ Date   : Mon Apr 18 19:39:02 2016
   slack (MET)                                                        0.02
 
 
-    Net: smc_float_adder/myFP_Adder/N5
+    Net: smc_float_multiplier/myFP_Multiplier/N_35[22]
 
     max_transition         0.04
-  - Transition Time        0.06
+  - Transition Time        0.04
   ------------------------------
-    Slack                 -0.02  (VIOLATED)
+    Slack                  0.00  (MET)
 
-    List of pins on net "smc_float_adder/myFP_Adder/N5" with transition violations :
-   -----------------------------------------------------------------
-                             Required        Actual
-                            Transition     Transition       Slack
-   -----------------------------------------------------------------
-       PIN :   smc_float_adder/myFP_Adder/Delay17_block/GenBlock.theDelay/outreg_reg[24]/Q
-                                0.04           0.06          -0.02  (VIOLATED)
 
-    Net: smc_float_adder/myFP_Adder/N5
+    Net: fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972/n480
 
     max_capacitance        8.00
-  - Capacitance           13.51
+  - Capacitance            8.00
   ------------------------------
-    Slack                 -5.51  (VIOLATED)
+    Slack                  0.00  (MET)
 
 
     Design: NLC_1ch
 
     max_area               0.00
-  - Current Area       167365.09
+  - Current Area       176448.62
   ------------------------------
-    Slack              -167365.09  (VIOLATED)
+    Slack              -176448.62  (VIOLATED)
 
 
 Min pulse width constraints
@@ -315,7 +307,7 @@ Min pulse width constraints
                        Required      Actual
   Pin                pulse width   pulse width   Slack           Scenario
 --------------------------------------------------------------------------------
-  smc_float_multiplier/myFP_Multiplier/Delay1_block/GenBlock.theDelay/outreg_reg[23]/CLK(high)
+  smc_float_adder/myFP_Adder/Delay17_block/GenBlock.theDelay/outreg_reg[24]/CLK(high)
                       0.03         81.38         81.35 (MET)
 
 1

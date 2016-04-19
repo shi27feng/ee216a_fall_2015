@@ -1,4 +1,3 @@
-Warning: Design 'NLC_1ch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: Updating design information... (UID-85)
 Warning: Design 'NLC_1ch' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
  
@@ -10,7 +9,7 @@ Report : timing
         -max_paths 10
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Mon Apr 18 19:38:03 2016
+Date   : Tue Apr 19 15:29:30 2016
 ****************************************
 
  # A fanout number of 1000 was used for high fanout net computations.
@@ -92,9 +91,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                                        0.02
 
 
-  Startpoint: reg2/r_reg[0][0]
+  Startpoint: reg1/r_reg[0][0]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][0]
+  Endpoint: reg1/r_reg[1][0]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -107,15 +106,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][0]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][0]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][0]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][0]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][0]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][0]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][0]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][0]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -125,9 +124,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][1]
+  Startpoint: reg1/r_reg[0][1]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][1]
+  Endpoint: reg1/r_reg[1][1]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -140,15 +139,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][1]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][1]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][1]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][1]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][1]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][1]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][1]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][1]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -158,9 +157,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][2]
+  Startpoint: reg1/r_reg[0][2]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][2]
+  Endpoint: reg1/r_reg[1][2]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -173,15 +172,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][2]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][2]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][2]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][2]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][2]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][2]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][2]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][2]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -191,9 +190,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][3]
+  Startpoint: reg1/r_reg[0][3]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][3]
+  Endpoint: reg1/r_reg[1][3]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -206,15 +205,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][3]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][3]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][3]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][3]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][3]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][3]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][3]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][3]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -224,9 +223,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][4]
+  Startpoint: reg1/r_reg[0][4]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][4]
+  Endpoint: reg1/r_reg[1][4]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -239,15 +238,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][4]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][4]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][4]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][4]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][4]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][4]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][4]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][4]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -257,9 +256,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][5]
+  Startpoint: reg1/r_reg[0][5]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][5]
+  Endpoint: reg1/r_reg[1][5]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -272,15 +271,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][5]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][5]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][5]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][5]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][5]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][5]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][5]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][5]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -290,9 +289,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][6]
+  Startpoint: reg1/r_reg[0][6]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][6]
+  Endpoint: reg1/r_reg[1][6]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -305,15 +304,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][6]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][6]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][6]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][6]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][6]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][6]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][6]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][6]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------
@@ -323,9 +322,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                         0.05
 
 
-  Startpoint: reg2/r_reg[0][7]
+  Startpoint: reg1/r_reg[0][7]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: reg2/r_reg[1][7]
+  Endpoint: reg1/r_reg[1][7]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -338,15 +337,15 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
-  reg2/r_reg[0][7]/CLK (DFFX1_RVT)         0.00 #     0.00 r
-  reg2/r_reg[0][7]/Q (DFFX1_RVT)           0.04       0.04 r
-  reg2/r_reg[1][7]/D (DFFX1_RVT)           0.10       0.14 r
+  reg1/r_reg[0][7]/CLK (DFFX1_RVT)         0.00 #     0.00 r
+  reg1/r_reg[0][7]/Q (DFFX1_RVT)           0.04       0.04 r
+  reg1/r_reg[1][7]/D (DFFX1_RVT)           0.10       0.14 r
   data arrival time                                   0.14
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.00       0.00
   clock uncertainty                        0.10       0.10
-  reg2/r_reg[1][7]/CLK (DFFX1_RVT)         0.00       0.10 r
+  reg1/r_reg[1][7]/CLK (DFFX1_RVT)         0.00       0.10 r
   library hold time                       -0.01       0.09
   data required time                                  0.09
   -----------------------------------------------------------

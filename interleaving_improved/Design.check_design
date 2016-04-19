@@ -1,27 +1,21 @@
-Warning: Design 'NLC_1ch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 check_design summary:
 Version:     G-2012.06-SP1
-Date:        Mon Apr 18 19:39:04 2016
+Date:        Tue Apr 19 15:30:31 2016
 ****************************************
 
                    Name                                            Total
 --------------------------------------------------------------------------------
-Inputs/Outputs                                                  10798
-    Multiply driven inputs (LINT-6)                                 1
+Inputs/Outputs                                                  10797
     Unconnected ports (LINT-28)                                 10792
     Feedthrough (LINT-29)                                           5
 
 Cells                                                             791
     Connected to power or ground (LINT-32)                        667
     Nets connected to multiple pins on same cell (LINT-33)        124
-
-Tristate                                                           32
-    A tristate bus has a non tri-state driver (LINT-34)            32
 --------------------------------------------------------------------------------
 
-Warning: In design 'NLC_1ch', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 Warning: In design 'NLC_1ch', port 'ch0_recip_stdev_4[31]' is not connected to any nets. (LINT-28)
 Warning: In design 'NLC_1ch', port 'ch0_recip_stdev_4[30]' is not connected to any nets. (LINT-28)
 Warning: In design 'NLC_1ch', port 'ch0_recip_stdev_4[29]' is not connected to any nets. (LINT-28)
@@ -12154,33 +12148,33 @@ Warning: In design 'NLC_1ch', a pin on submodule 'fp_to_smc_float/myFixed_to_FP/
 Warning: In design 'NLC_1ch', a pin on submodule 'fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852' is connected to logic 1 or logic 0. (LINT-32)
    Pin 'CI' is connected to logic 0. 
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002'. (LINT-33)
-   Net 'n72484' is connected to pins 'A[43]', 'A[42]'', 'A[41]', 'A[40]', 'A[39]', 'A[38]', 'A[37]', 'A[36]', 'A[35]', 'A[34]', 'A[33]', 'A[32]', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]'.
+   Net 'n72483' is connected to pins 'A[43]', 'A[42]'', 'A[41]', 'A[40]', 'A[39]', 'A[38]', 'A[37]', 'A[36]', 'A[35]', 'A[34]', 'A[33]', 'A[32]', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945'. (LINT-33)
-   Net 'n72352' is connected to pins 'A[20]', 'A[19]'', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
+   Net 'n72351' is connected to pins 'A[20]', 'A[19]'', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974'. (LINT-33)
-   Net 'n72443' is connected to pins 'A[8]', 'A[7]'', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
+   Net 'n72442' is connected to pins 'A[8]', 'A[7]'', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974'. (LINT-33)
-   Net 'n72443' is connected to pins 'A[8]', 'A[7]'', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
+   Net 'n72442' is connected to pins 'A[8]', 'A[7]'', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945'. (LINT-33)
-   Net 'n72415' is connected to pins 'A[33]', 'A[32]'', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
+   Net 'n72414' is connected to pins 'A[33]', 'A[32]'', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945'. (LINT-33)
-   Net 'n72426' is connected to pins 'A[33]', 'A[32]'', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
+   Net 'n72425' is connected to pins 'A[33]', 'A[32]'', 'A[31]', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2'. (LINT-33)
    Net 'smc_float_adder/myFP_Adder/Add3_block.tmpOutPre[34]' is connected to pins 'A[35]', 'A[34]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2'. (LINT-33)
-   Net 'n72432' is connected to pins 'B[35]', 'B[34]'', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'CI'.
+   Net 'n72431' is connected to pins 'B[35]', 'B[34]'', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2'. (LINT-33)
-   Net 'n72478' is connected to pins 'B[8]', 'B[7]'', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+   Net 'n72477' is connected to pins 'B[8]', 'B[7]'', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388'. (LINT-33)
    Net 'smc_float_adder/myFP_Adder/Add3_block.tmpOutPre[34]' is connected to pins 'A[35]', 'A[34]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388'. (LINT-33)
    Net 'smc_float_adder/myFP_Adder/Add3_block.tmpOutPre[10]' is connected to pins 'A[10]', 'B[9]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388'. (LINT-33)
-   Net 'n72433' is connected to pins 'B[35]', 'B[34]'', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'CI'.
+   Net 'n72432' is connected to pins 'B[35]', 'B[34]'', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Convert7/Convert/add_388'. (LINT-33)
-   Net 'n72478' is connected to pins 'B[8]', 'B[7]'', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+   Net 'n72477' is connected to pins 'B[8]', 'B[7]'', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852'. (LINT-33)
-   Net 'n72442' is connected to pins 'A[26]', 'A[25]'', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
+   Net 'n72441' is connected to pins 'A[26]', 'A[25]'', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852'. (LINT-33)
    Net 'smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/N1' is connected to pins 'B[26]', 'B[25]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/add_1173'. (LINT-33)
@@ -12188,249 +12182,217 @@ Warning: In design 'NLC_1ch', the same net is connected to more than one pin on 
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/add_1173'. (LINT-33)
    Net 'smc_float_adder/myFP_Adder/Add3_block.tmp_N_48_1_34' is connected to pins 'B[34]', 'B[33]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/sub_1158'. (LINT-33)
-   Net 'n72443' is connected to pins 'A[8]', 'B[8]''.
+   Net 'n72442' is connected to pins 'A[8]', 'B[8]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_adder/myFP_Adder/sub_1143'. (LINT-33)
-   Net 'n72443' is connected to pins 'A[8]', 'B[8]''.
+   Net 'n72442' is connected to pins 'A[8]', 'B[8]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2'. (LINT-33)
-   Net 'n72439' is connected to pins 'A[49]', 'B[49]'', 'B[48]', 'B[47]', 'B[46]', 'B[45]', 'B[44]', 'B[43]', 'B[42]', 'B[41]', 'B[40]', 'B[39]', 'B[38]', 'B[37]', 'B[36]', 'B[35]', 'B[34]', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'CI'.
+   Net 'n72438' is connected to pins 'A[49]', 'B[49]'', 'B[48]', 'B[47]', 'B[46]', 'B[45]', 'B[44]', 'B[43]', 'B[42]', 'B[41]', 'B[40]', 'B[39]', 'B[38]', 'B[37]', 'B[36]', 'B[35]', 'B[34]', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2'. (LINT-33)
-   Net 'n72482' is connected to pins 'B[22]', 'B[21]'', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+   Net 'n72481' is connected to pins 'B[22]', 'B[21]'', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388'. (LINT-33)
-   Net 'n72440' is connected to pins 'A[49]', 'B[49]'', 'B[48]', 'B[47]', 'B[46]', 'B[45]', 'B[44]', 'B[43]', 'B[42]', 'B[41]', 'B[40]', 'B[39]', 'B[38]', 'B[37]', 'B[36]', 'B[35]', 'B[34]', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'CI'.
+   Net 'n72439' is connected to pins 'A[49]', 'B[49]'', 'B[48]', 'B[47]', 'B[46]', 'B[45]', 'B[44]', 'B[43]', 'B[42]', 'B[41]', 'B[40]', 'B[39]', 'B[38]', 'B[37]', 'B[36]', 'B[35]', 'B[34]', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'CI'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388'. (LINT-33)
    Net 'smc_float_multiplier/myFP_Multiplier/N_27[24]' is connected to pins 'A[24]', 'B[23]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388'. (LINT-33)
-   Net 'n72482' is connected to pins 'B[22]', 'B[21]'', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+   Net 'n72481' is connected to pins 'B[22]', 'B[21]'', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'smc_float_multiplier/myFP_Multiplier/add_170'. (LINT-33)
-   Net 'n72480' is connected to pins 'A[8]', 'B[8]''.
+   Net 'n72479' is connected to pins 'A[8]', 'B[8]''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_671'. (LINT-33)
-   Net 'n72444' is connected to pins 'B[20]', 'TC''.
+   Net 'n72443' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_671'. (LINT-33)
-   Net 'n72445' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72444' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_676'. (LINT-33)
-   Net 'n72446' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72445' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_658'. (LINT-33)
-   Net 'n72448' is connected to pins 'B[20]', 'TC''.
+   Net 'n72447' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_658'. (LINT-33)
-   Net 'n72449' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72448' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_663'. (LINT-33)
-   Net 'n72450' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72449' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_645'. (LINT-33)
-   Net 'n72452' is connected to pins 'B[20]', 'TC''.
+   Net 'n72451' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_645'. (LINT-33)
-   Net 'n72453' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72452' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_650'. (LINT-33)
-   Net 'n72454' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72453' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_632'. (LINT-33)
-   Net 'n72456' is connected to pins 'B[20]', 'TC''.
+   Net 'n72455' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_632'. (LINT-33)
-   Net 'n72457' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72456' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_637'. (LINT-33)
-   Net 'n72458' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72457' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_619'. (LINT-33)
-   Net 'n72460' is connected to pins 'B[20]', 'TC''.
+   Net 'n72459' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_619'. (LINT-33)
-   Net 'n72461' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72460' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_624'. (LINT-33)
-   Net 'n72462' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72461' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_606'. (LINT-33)
-   Net 'n72464' is connected to pins 'B[20]', 'TC''.
+   Net 'n72463' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_606'. (LINT-33)
-   Net 'n72465' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72464' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_611'. (LINT-33)
-   Net 'n72466' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72465' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_593'. (LINT-33)
-   Net 'n72468' is connected to pins 'B[20]', 'TC''.
+   Net 'n72467' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_593'. (LINT-33)
-   Net 'n72469' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72468' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_598'. (LINT-33)
-   Net 'n72470' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72469' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_580'. (LINT-33)
-   Net 'n72472' is connected to pins 'B[20]', 'TC''.
+   Net 'n72471' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_580'. (LINT-33)
-   Net 'n72473' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72472' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_585'. (LINT-33)
-   Net 'n72474' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72473' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_567'. (LINT-33)
-   Net 'n72476' is connected to pins 'B[20]', 'TC''.
+   Net 'n72475' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_567'. (LINT-33)
-   Net 'n72477' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72476' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_572'. (LINT-33)
-   Net 'n72332' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72331' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_554'. (LINT-33)
-   Net 'n72334' is connected to pins 'B[20]', 'TC''.
+   Net 'n72333' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_554'. (LINT-33)
-   Net 'n72335' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72334' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_559'. (LINT-33)
-   Net 'n72336' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72335' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_541'. (LINT-33)
-   Net 'n72338' is connected to pins 'B[20]', 'TC''.
+   Net 'n72337' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_541'. (LINT-33)
-   Net 'n72339' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72338' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_546'. (LINT-33)
-   Net 'n72340' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72339' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_528'. (LINT-33)
-   Net 'n72342' is connected to pins 'B[20]', 'TC''.
+   Net 'n72341' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_528'. (LINT-33)
-   Net 'n72343' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72342' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_533'. (LINT-33)
-   Net 'n72344' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72343' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_515'. (LINT-33)
-   Net 'n72346' is connected to pins 'B[20]', 'TC''.
+   Net 'n72345' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_515'. (LINT-33)
-   Net 'n72347' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72346' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_520'. (LINT-33)
-   Net 'n72348' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72347' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_502'. (LINT-33)
-   Net 'n72350' is connected to pins 'B[20]', 'TC''.
+   Net 'n72349' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_502'. (LINT-33)
-   Net 'n72351' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72350' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_507'. (LINT-33)
-   Net 'n72353' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72352' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_489'. (LINT-33)
-   Net 'n72355' is connected to pins 'B[20]', 'TC''.
+   Net 'n72354' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_489'. (LINT-33)
-   Net 'n72356' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72355' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_494'. (LINT-33)
-   Net 'n72357' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72356' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_476'. (LINT-33)
-   Net 'n72359' is connected to pins 'B[20]', 'TC''.
+   Net 'n72358' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_476'. (LINT-33)
-   Net 'n72360' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72359' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_481'. (LINT-33)
-   Net 'n72361' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72360' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_463'. (LINT-33)
-   Net 'n72363' is connected to pins 'B[20]', 'TC''.
+   Net 'n72362' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_463'. (LINT-33)
-   Net 'n72364' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72363' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_468'. (LINT-33)
-   Net 'n72365' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72364' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_450'. (LINT-33)
-   Net 'n72367' is connected to pins 'B[20]', 'TC''.
+   Net 'n72366' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_450'. (LINT-33)
-   Net 'n72368' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72367' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_455'. (LINT-33)
-   Net 'n72369' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72368' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_437'. (LINT-33)
-   Net 'n72371' is connected to pins 'B[20]', 'TC''.
+   Net 'n72370' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_437'. (LINT-33)
-   Net 'n72372' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72371' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_442'. (LINT-33)
-   Net 'n72373' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72372' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_424'. (LINT-33)
-   Net 'n72375' is connected to pins 'B[20]', 'TC''.
+   Net 'n72374' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_424'. (LINT-33)
-   Net 'n72376' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72375' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_429'. (LINT-33)
-   Net 'n72377' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72376' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_411'. (LINT-33)
-   Net 'n72379' is connected to pins 'B[20]', 'TC''.
+   Net 'n72378' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_411'. (LINT-33)
-   Net 'n72380' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72379' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_416'. (LINT-33)
-   Net 'n72381' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72380' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_398'. (LINT-33)
-   Net 'n72383' is connected to pins 'B[20]', 'TC''.
+   Net 'n72382' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_398'. (LINT-33)
-   Net 'n72384' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72383' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_403'. (LINT-33)
-   Net 'n72385' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72384' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_385'. (LINT-33)
-   Net 'n72387' is connected to pins 'B[20]', 'TC''.
+   Net 'n72386' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_385'. (LINT-33)
-   Net 'n72388' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72387' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_390'. (LINT-33)
-   Net 'n72389' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72388' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_372'. (LINT-33)
-   Net 'n72391' is connected to pins 'B[20]', 'TC''.
+   Net 'n72390' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_372'. (LINT-33)
-   Net 'n72392' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72391' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_377'. (LINT-33)
-   Net 'n72394' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72393' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_359'. (LINT-33)
-   Net 'n72396' is connected to pins 'B[20]', 'TC''.
+   Net 'n72395' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_359'. (LINT-33)
-   Net 'n72397' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72396' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_364'. (LINT-33)
-   Net 'n72398' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72397' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_346'. (LINT-33)
-   Net 'n72400' is connected to pins 'B[20]', 'TC''.
+   Net 'n72399' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_346'. (LINT-33)
-   Net 'n72401' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72400' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_351'. (LINT-33)
-   Net 'n72402' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72401' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_333'. (LINT-33)
-   Net 'n72405' is connected to pins 'B[20]', 'TC''.
+   Net 'n72404' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_333'. (LINT-33)
-   Net 'n72406' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72405' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_338'. (LINT-33)
-   Net 'n72407' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72406' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_320'. (LINT-33)
-   Net 'n72409' is connected to pins 'B[20]', 'TC''.
+   Net 'n72408' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_320'. (LINT-33)
-   Net 'n72410' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72409' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_325'. (LINT-33)
-   Net 'n72411' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72410' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_307'. (LINT-33)
-   Net 'n72413' is connected to pins 'B[20]', 'TC''.
+   Net 'n72412' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_307'. (LINT-33)
-   Net 'n72414' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72413' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_312'. (LINT-33)
-   Net 'n72416' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72415' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_294'. (LINT-33)
-   Net 'n72418' is connected to pins 'B[20]', 'TC''.
+   Net 'n72417' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_294'. (LINT-33)
-   Net 'n72419' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72418' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_299'. (LINT-33)
-   Net 'n72420' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72419' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_281'. (LINT-33)
-   Net 'n72422' is connected to pins 'B[20]', 'TC''.
+   Net 'n72421' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_281'. (LINT-33)
-   Net 'n72423' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72422' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_286'. (LINT-33)
-   Net 'n72424' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72423' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_268'. (LINT-33)
-   Net 'n72427' is connected to pins 'B[20]', 'TC''.
+   Net 'n72426' is connected to pins 'B[20]', 'TC''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'gte_268'. (LINT-33)
-   Net 'n72428' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+   Net 'n72427' is connected to pins 'GE_LT', 'GE_GT_EQ''.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'lt_273'. (LINT-33)
-   Net 'n72429' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
+   Net 'n72428' is connected to pins 'B[20]', 'TC'', 'GE_GT_EQ'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852'. (LINT-33)
-   Net 'n72442' is connected to pins 'A[32]', 'A[31]'', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
+   Net 'n72441' is connected to pins 'A[32]', 'A[31]'', 'A[30]', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852'. (LINT-33)
-   Net 'n72318' is connected to pins 'B[10]', 'B[9]'', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+   Net 'n72317' is connected to pins 'B[10]', 'B[9]'', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
 Warning: In design 'NLC_1ch', the same net is connected to more than one pin on submodule 'add_0_root_smc_float_adder/myFP_Adder/add_1190'. (LINT-33)
-   Net 'n66708' is connected to pins 'A[9]', 'A[8]''.
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[0]' has non three-state driver 'U31846/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[1]' has non three-state driver 'U31844/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[2]' has non three-state driver 'U31842/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[3]' has non three-state driver 'U31840/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[4]' has non three-state driver 'U31838/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[5]' has non three-state driver 'U31836/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[6]' has non three-state driver 'U31834/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[7]' has non three-state driver 'U31832/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[8]' has non three-state driver 'U31830/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[9]' has non three-state driver 'U31828/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[10]' has non three-state driver 'U31826/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[11]' has non three-state driver 'U31824/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[12]' has non three-state driver 'U31822/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[13]' has non three-state driver 'U31820/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[14]' has non three-state driver 'U31818/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[15]' has non three-state driver 'U31816/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[16]' has non three-state driver 'U31814/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[17]' has non three-state driver 'U31812/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[18]' has non three-state driver 'U31810/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[19]' has non three-state driver 'U31808/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[20]' has non three-state driver 'U31806/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[21]' has non three-state driver 'U31804/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[22]' has non three-state driver 'U31802/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[23]' has non three-state driver 'U31800/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[24]' has non three-state driver 'U31798/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[25]' has non three-state driver 'U31796/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[26]' has non three-state driver 'U31794/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[27]' has non three-state driver 'U31792/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[28]' has non three-state driver 'U31790/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[29]' has non three-state driver 'U31788/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[30]' has non three-state driver 'U31786/Y'. (LINT-34)
-Warning: In design 'NLC_1ch', three-state bus 'i_reg_1[31]' has non three-state driver 'U31784/Y'. (LINT-34)
+   Net 'n66710' is connected to pins 'A[9]', 'A[8]''.
 1

@@ -1,10 +1,9 @@
-Warning: Design 'NLC_1ch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : area
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Mon Apr 18 19:38:03 2016
+Date   : Tue Apr 19 15:29:30 2016
 ****************************************
 
 Library(s) Used:
@@ -12,23 +11,21 @@ Library(s) Used:
     saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
 
 Number of ports:                        55236
-Number of nets:                         77657
-Number of cells:                        31369
-Number of combinational cells:          28970
-Number of sequential cells:              2314
+Number of nets:                         78585
+Number of cells:                        32360
+Number of combinational cells:          28937
+Number of sequential cells:              3338
 Number of macros:                           0
-Number of buf/inv:                       4094
-Number of references:                     125
+Number of buf/inv:                       4062
+Number of references:                     123
 
-Combinational area:       98986.548070
-Buf/Inv area:             10407.197132
-Noncombinational area:    15698.475307
-Net Interconnect area:    52680.068930 
+Combinational area:       98931.144681
+Buf/Inv area:             10368.058956
+Noncombinational area:    22465.313673
+Net Interconnect area:    55052.159813 
 
-Total cell area:          114685.023377
-Total area:               167365.092307
-
-Information: This design contains black box (unknown) components. (RPT-8)
+Total cell area:          121396.458354
+Total area:               176448.618167
 
 Hierarchical area distribution
 ------------------------------
@@ -38,7 +35,7 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black
                                   Total        Total    national    national    boxes   Design
 --------------------------------  -----------  -------  ----------  ----------  ------  ---------------------
-NLC_1ch                           114685.0234    100.0  80315.3507  15698.4753  0.0000  NLC_1ch
+NLC_1ch                           121396.4584    100.0  80259.9474  22465.3137  0.0000  NLC_1ch
 add_0_root_smc_float_adder/myFP_Adder/add_1190
                                       32.0221      0.0     32.0221      0.0000  0.0000  NLC_1ch_DW01_inc_4
 fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852
@@ -140,12 +137,12 @@ smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2
 smc_float_multiplier/myFP_Multiplier/add_170
                                       40.1548      0.0     40.1548      0.0000  0.0000  NLC_1ch_DW01_add_5
 smc_float_multiplier/myFP_Multiplier/mult_492
-                                    5189.8746      4.5   5189.8746      0.0000  0.0000  NLC_1ch_DW_mult_uns_0
+                                    5189.8746      4.3   5189.8746      0.0000  0.0000  NLC_1ch_DW_mult_uns_0
 smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945
                                      122.7516      0.1    122.7516      0.0000  0.0000  NLC_1ch_DW01_sub_1
 smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002
                                      575.3820      0.5    575.3820      0.0000  0.0000  NLC_1ch_DW_leftsh_0
 --------------------------------  -----------  -------  ----------  ----------  ------  ---------------------
-Total                                                   98986.5481  15698.4753  0.0000
+Total                                                   98931.1447  22465.3137  0.0000
 
 1

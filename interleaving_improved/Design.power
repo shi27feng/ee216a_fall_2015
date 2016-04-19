@@ -2,7 +2,6 @@ Loading db file '/w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
-Warning: Design has unannotated black box outputs. (PWR-428)
  
 ****************************************
 Report : power
@@ -10,7 +9,7 @@ Report : power
         -analysis_effort low
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Mon Apr 18 19:39:01 2016
+Date   : Tue Apr 19 15:30:28 2016
 ****************************************
 
 
@@ -125,111 +124,111 @@ Power-specific unit information :
                                        Switch   Int      Leak     Total
 Hierarchy                              Power    Power    Power    Power    %
 --------------------------------------------------------------------------------
-NLC_1ch                                  12.179  148.489 1.68e+11 1.68e+05 100.0
+NLC_1ch                                   8.257  172.907 1.90e+11 1.90e+05 100.0
   smc_float_multiplier/myFP_Multiplier/mult_492 (NLC_1ch_DW_mult_uns_0)
-                                          1.541    7.228 9.50e+09 9.51e+03   5.7
+                                          1.547    7.255 9.50e+09 9.51e+03   5.0
   add_0_root_smc_float_adder/myFP_Adder/add_1190 (NLC_1ch_DW01_inc_4)
-                                       1.92e-03      N/A 8.85e+07   88.495   0.1
+                                       1.93e-03      N/A 8.85e+07   88.489   0.0
   fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_12)
-                                       1.16e-02    0.110 2.09e+08  209.451   0.1
-  lt_273 (NLC_1ch_DW_cmp_67)           4.05e-02    0.115 1.79e+08  179.153   0.1
-  gte_268 (NLC_1ch_DW_cmp_66)          3.94e-02    0.106 1.80e+08  180.581   0.1
-  lt_286 (NLC_1ch_DW_cmp_65)           4.06e-02    0.116 1.79e+08  179.290   0.1
-  gte_281 (NLC_1ch_DW_cmp_64)          3.93e-02    0.106 1.80e+08  180.639   0.1
-  lt_299 (NLC_1ch_DW_cmp_63)           4.03e-02    0.115 1.79e+08  179.322   0.1
-  gte_294 (NLC_1ch_DW_cmp_62)          3.91e-02    0.105 1.81e+08  180.764   0.1
-  lt_312 (NLC_1ch_DW_cmp_61)           4.04e-02    0.115 1.79e+08  179.175   0.1
-  gte_307 (NLC_1ch_DW_cmp_60)          3.95e-02    0.106 1.80e+08  180.587   0.1
-  lt_325 (NLC_1ch_DW_cmp_59)           4.06e-02    0.116 1.79e+08  179.143   0.1
-  gte_320 (NLC_1ch_DW_cmp_58)          3.96e-02    0.107 1.81e+08  180.735   0.1
-  lt_338 (NLC_1ch_DW_cmp_57)           4.03e-02    0.115 1.79e+08  179.310   0.1
-  gte_333 (NLC_1ch_DW_cmp_56)          3.93e-02    0.106 1.81e+08  180.769   0.1
-  lt_351 (NLC_1ch_DW_cmp_55)           4.05e-02    0.115 1.79e+08  179.100   0.1
-  gte_346 (NLC_1ch_DW_cmp_54)          3.94e-02    0.106 1.81e+08  180.818   0.1
-  lt_364 (NLC_1ch_DW_cmp_53)           4.04e-02    0.115 1.79e+08  179.133   0.1
-  gte_359 (NLC_1ch_DW_cmp_52)          3.96e-02    0.107 1.81e+08  180.676   0.1
-  lt_377 (NLC_1ch_DW_cmp_51)           4.05e-02    0.116 1.79e+08  179.098   0.1
-  gte_372 (NLC_1ch_DW_cmp_50)          3.93e-02    0.106 1.81e+08  180.859   0.1
-  lt_390 (NLC_1ch_DW_cmp_49)           4.06e-02    0.116 1.79e+08  179.235   0.1
-  gte_385 (NLC_1ch_DW_cmp_48)          3.96e-02    0.107 1.81e+08  180.662   0.1
-  lt_403 (NLC_1ch_DW_cmp_47)           4.06e-02    0.116 1.79e+08  179.201   0.1
-  gte_398 (NLC_1ch_DW_cmp_46)          3.93e-02    0.106 1.80e+08  180.560   0.1
-  lt_416 (NLC_1ch_DW_cmp_45)           4.02e-02    0.115 1.79e+08  179.172   0.1
-  gte_411 (NLC_1ch_DW_cmp_44)          3.91e-02    0.105 1.80e+08  180.642   0.1
-  lt_429 (NLC_1ch_DW_cmp_43)           4.04e-02    0.115 1.79e+08  179.308   0.1
-  gte_424 (NLC_1ch_DW_cmp_42)          3.93e-02    0.106 1.81e+08  180.670   0.1
-  lt_442 (NLC_1ch_DW_cmp_41)           4.03e-02    0.115 1.79e+08  179.296   0.1
-  gte_437 (NLC_1ch_DW_cmp_40)          3.95e-02    0.106 1.81e+08  180.742   0.1
-  lt_455 (NLC_1ch_DW_cmp_39)           4.05e-02    0.115 1.79e+08  179.354   0.1
-  gte_450 (NLC_1ch_DW_cmp_38)          3.93e-02    0.106 1.80e+08  180.572   0.1
-  lt_468 (NLC_1ch_DW_cmp_37)           4.03e-02    0.115 1.79e+08  179.129   0.1
-  gte_463 (NLC_1ch_DW_cmp_36)          3.93e-02    0.106 1.81e+08  180.713   0.1
-  lt_481 (NLC_1ch_DW_cmp_35)           4.04e-02    0.115 1.79e+08  179.340   0.1
-  gte_476 (NLC_1ch_DW_cmp_34)          3.93e-02    0.106 1.81e+08  180.723   0.1
-  lt_494 (NLC_1ch_DW_cmp_33)           4.04e-02    0.114 1.79e+08  179.197   0.1
-  gte_489 (NLC_1ch_DW_cmp_32)          3.94e-02    0.106 1.80e+08  180.629   0.1
-  lt_507 (NLC_1ch_DW_cmp_31)           4.05e-02    0.115 1.79e+08  179.091   0.1
-  gte_502 (NLC_1ch_DW_cmp_30)          3.92e-02    0.106 1.80e+08  180.573   0.1
-  lt_520 (NLC_1ch_DW_cmp_29)           4.06e-02    0.115 1.79e+08  179.273   0.1
-  gte_515 (NLC_1ch_DW_cmp_28)          3.96e-02    0.107 1.81e+08  180.809   0.1
-  lt_533 (NLC_1ch_DW_cmp_27)           4.06e-02    0.115 1.79e+08  179.291   0.1
-  gte_528 (NLC_1ch_DW_cmp_26)          3.94e-02    0.106 1.81e+08  180.718   0.1
-  lt_546 (NLC_1ch_DW_cmp_25)           4.04e-02    0.114 1.79e+08  179.239   0.1
-  gte_541 (NLC_1ch_DW_cmp_24)          3.92e-02    0.106 1.81e+08  180.720   0.1
-  lt_559 (NLC_1ch_DW_cmp_23)           4.06e-02    0.115 1.79e+08  179.347   0.1
-  gte_554 (NLC_1ch_DW_cmp_22)          3.93e-02    0.106 1.80e+08  180.616   0.1
-  lt_572 (NLC_1ch_DW_cmp_21)           4.06e-02    0.115 1.79e+08  179.313   0.1
-  gte_567 (NLC_1ch_DW_cmp_20)          3.92e-02    0.105 1.81e+08  180.665   0.1
-  lt_585 (NLC_1ch_DW_cmp_19)           4.06e-02    0.115 1.79e+08  179.141   0.1
-  gte_580 (NLC_1ch_DW_cmp_18)          3.95e-02    0.106 1.81e+08  180.667   0.1
-  lt_598 (NLC_1ch_DW_cmp_17)           4.05e-02    0.115 1.79e+08  179.193   0.1
-  gte_593 (NLC_1ch_DW_cmp_16)          3.95e-02    0.106 1.80e+08  180.581   0.1
-  lt_611 (NLC_1ch_DW_cmp_15)           4.06e-02    0.115 1.79e+08  179.159   0.1
-  gte_606 (NLC_1ch_DW_cmp_14)          3.93e-02    0.106 1.81e+08  180.704   0.1
-  lt_624 (NLC_1ch_DW_cmp_13)           4.04e-02    0.115 1.79e+08  179.154   0.1
-  gte_619 (NLC_1ch_DW_cmp_12)          3.94e-02    0.106 1.80e+08  180.588   0.1
-  lt_637 (NLC_1ch_DW_cmp_11)           4.03e-02    0.114 1.79e+08  179.158   0.1
-  gte_632 (NLC_1ch_DW_cmp_10)          3.93e-02    0.106 1.80e+08  180.567   0.1
-  lt_650 (NLC_1ch_DW_cmp_9)            4.05e-02    0.115 1.79e+08  179.242   0.1
-  gte_645 (NLC_1ch_DW_cmp_8)           3.93e-02    0.106 1.81e+08  180.716   0.1
-  lt_663 (NLC_1ch_DW_cmp_7)            4.03e-02    0.114 1.79e+08  179.124   0.1
-  gte_658 (NLC_1ch_DW_cmp_6)           3.92e-02    0.105 1.81e+08  180.708   0.1
-  lt_676 (NLC_1ch_DW_cmp_5)            4.04e-02    0.114 1.79e+08  179.134   0.1
-  gte_671 (NLC_1ch_DW_cmp_4)           3.93e-02    0.106 1.81e+08  180.677   0.1
+                                       1.16e-02    0.111 2.09e+08  209.226   0.1
+  lt_273 (NLC_1ch_DW_cmp_67)           4.04e-02    0.115 1.79e+08  179.165   0.1
+  gte_268 (NLC_1ch_DW_cmp_66)          3.92e-02    0.105 1.81e+08  180.837   0.1
+  lt_286 (NLC_1ch_DW_cmp_65)           4.05e-02    0.116 1.79e+08  179.284   0.1
+  gte_281 (NLC_1ch_DW_cmp_64)          3.93e-02    0.106 1.81e+08  180.741   0.1
+  lt_299 (NLC_1ch_DW_cmp_63)           4.03e-02    0.115 1.79e+08  179.102   0.1
+  gte_294 (NLC_1ch_DW_cmp_62)          3.96e-02    0.107 1.81e+08  180.772   0.1
+  lt_312 (NLC_1ch_DW_cmp_61)           4.03e-02    0.115 1.79e+08  179.189   0.1
+  gte_307 (NLC_1ch_DW_cmp_60)          3.93e-02    0.106 1.81e+08  180.704   0.1
+  lt_325 (NLC_1ch_DW_cmp_59)           4.04e-02    0.115 1.79e+08  179.321   0.1
+  gte_320 (NLC_1ch_DW_cmp_58)          3.93e-02    0.106 1.81e+08  180.717   0.1
+  lt_338 (NLC_1ch_DW_cmp_57)           4.03e-02    0.115 1.79e+08  179.220   0.1
+  gte_333 (NLC_1ch_DW_cmp_56)          3.94e-02    0.106 1.81e+08  180.793   0.1
+  lt_351 (NLC_1ch_DW_cmp_55)           4.02e-02    0.115 1.79e+08  179.155   0.1
+  gte_346 (NLC_1ch_DW_cmp_54)          3.92e-02    0.106 1.81e+08  180.777   0.1
+  lt_364 (NLC_1ch_DW_cmp_53)           4.02e-02    0.115 1.79e+08  179.232   0.1
+  gte_359 (NLC_1ch_DW_cmp_52)          3.92e-02    0.106 1.81e+08  180.797   0.1
+  lt_377 (NLC_1ch_DW_cmp_51)           4.03e-02    0.115 1.79e+08  179.200   0.1
+  gte_372 (NLC_1ch_DW_cmp_50)          3.95e-02    0.107 1.81e+08  180.718   0.1
+  lt_390 (NLC_1ch_DW_cmp_49)           4.05e-02    0.116 1.79e+08  179.221   0.1
+  gte_385 (NLC_1ch_DW_cmp_48)          3.95e-02    0.106 1.81e+08  180.695   0.1
+  lt_403 (NLC_1ch_DW_cmp_47)           4.04e-02    0.115 1.79e+08  179.115   0.1
+  gte_398 (NLC_1ch_DW_cmp_46)          3.94e-02    0.106 1.80e+08  180.639   0.1
+  lt_416 (NLC_1ch_DW_cmp_45)           4.04e-02    0.115 1.79e+08  179.107   0.1
+  gte_411 (NLC_1ch_DW_cmp_44)          3.94e-02    0.106 1.81e+08  180.747   0.1
+  lt_429 (NLC_1ch_DW_cmp_43)           4.05e-02    0.115 1.79e+08  179.112   0.1
+  gte_424 (NLC_1ch_DW_cmp_42)          3.95e-02    0.106 1.81e+08  180.830   0.1
+  lt_442 (NLC_1ch_DW_cmp_41)           4.04e-02    0.115 1.79e+08  179.055   0.1
+  gte_437 (NLC_1ch_DW_cmp_40)          3.95e-02    0.106 1.81e+08  180.673   0.1
+  lt_455 (NLC_1ch_DW_cmp_39)           4.01e-02    0.114 1.79e+08  179.125   0.1
+  gte_450 (NLC_1ch_DW_cmp_38)          3.95e-02    0.106 1.81e+08  180.722   0.1
+  lt_468 (NLC_1ch_DW_cmp_37)           4.06e-02    0.116 1.79e+08  179.250   0.1
+  gte_463 (NLC_1ch_DW_cmp_36)          3.95e-02    0.107 1.81e+08  180.702   0.1
+  lt_481 (NLC_1ch_DW_cmp_35)           4.04e-02    0.115 1.79e+08  179.182   0.1
+  gte_476 (NLC_1ch_DW_cmp_34)          3.94e-02    0.106 1.81e+08  180.694   0.1
+  lt_494 (NLC_1ch_DW_cmp_33)           4.02e-02    0.114 1.79e+08  179.241   0.1
+  gte_489 (NLC_1ch_DW_cmp_32)          3.93e-02    0.106 1.81e+08  180.747   0.1
+  lt_507 (NLC_1ch_DW_cmp_31)           4.05e-02    0.115 1.79e+08  179.305   0.1
+  gte_502 (NLC_1ch_DW_cmp_30)          3.94e-02    0.106 1.81e+08  180.692   0.1
+  lt_520 (NLC_1ch_DW_cmp_29)           4.04e-02    0.114 1.79e+08  179.080   0.1
+  gte_515 (NLC_1ch_DW_cmp_28)          3.94e-02    0.106 1.81e+08  180.708   0.1
+  lt_533 (NLC_1ch_DW_cmp_27)           4.04e-02    0.115 1.79e+08  179.177   0.1
+  gte_528 (NLC_1ch_DW_cmp_26)          3.93e-02    0.106 1.81e+08  180.647   0.1
+  lt_546 (NLC_1ch_DW_cmp_25)           4.03e-02    0.114 1.79e+08  179.285   0.1
+  gte_541 (NLC_1ch_DW_cmp_24)          3.93e-02    0.106 1.80e+08  180.555   0.1
+  lt_559 (NLC_1ch_DW_cmp_23)           4.05e-02    0.115 1.79e+08  179.216   0.1
+  gte_554 (NLC_1ch_DW_cmp_22)          3.94e-02    0.106 1.81e+08  180.756   0.1
+  lt_572 (NLC_1ch_DW_cmp_21)           4.05e-02    0.115 1.79e+08  179.127   0.1
+  gte_567 (NLC_1ch_DW_cmp_20)          3.95e-02    0.106 1.80e+08  180.583   0.1
+  lt_585 (NLC_1ch_DW_cmp_19)           4.06e-02    0.115 1.79e+08  179.305   0.1
+  gte_580 (NLC_1ch_DW_cmp_18)          3.96e-02    0.107 1.81e+08  180.696   0.1
+  lt_598 (NLC_1ch_DW_cmp_17)           4.04e-02    0.115 1.79e+08  179.153   0.1
+  gte_593 (NLC_1ch_DW_cmp_16)          3.95e-02    0.106 1.80e+08  180.615   0.1
+  lt_611 (NLC_1ch_DW_cmp_15)           4.05e-02    0.115 1.79e+08  179.206   0.1
+  gte_606 (NLC_1ch_DW_cmp_14)          3.93e-02    0.106 1.80e+08  180.572   0.1
+  lt_624 (NLC_1ch_DW_cmp_13)           4.04e-02    0.115 1.79e+08  179.133   0.1
+  gte_619 (NLC_1ch_DW_cmp_12)          3.93e-02    0.106 1.81e+08  180.745   0.1
+  lt_637 (NLC_1ch_DW_cmp_11)           4.04e-02    0.115 1.79e+08  179.081   0.1
+  gte_632 (NLC_1ch_DW_cmp_10)          3.94e-02    0.106 1.80e+08  180.623   0.1
+  lt_650 (NLC_1ch_DW_cmp_9)            4.03e-02    0.114 1.79e+08  179.223   0.1
+  gte_645 (NLC_1ch_DW_cmp_8)           3.93e-02    0.106 1.81e+08  180.647   0.1
+  lt_663 (NLC_1ch_DW_cmp_7)            4.07e-02    0.115 1.79e+08  179.227   0.1
+  gte_658 (NLC_1ch_DW_cmp_6)           3.96e-02    0.106 1.80e+08  180.544   0.1
+  lt_676 (NLC_1ch_DW_cmp_5)            4.04e-02    0.114 1.79e+08  179.183   0.1
+  gte_671 (NLC_1ch_DW_cmp_4)           3.94e-02    0.106 1.81e+08  180.762   0.1
   fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972 (NLC_1ch_DW_leftsh_2)
-                                       8.92e-02    0.658 4.45e+08  445.510   0.3
+                                       8.94e-02    0.660 4.45e+08  445.562   0.2
   smc_float_multiplier/myFP_Multiplier/add_170 (NLC_1ch_DW01_add_5)
-                                       9.51e-03 1.62e-02 5.52e+07   55.264   0.0
+                                       9.60e-03 1.66e-02 5.53e+07   55.372   0.0
   smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388 (NLC_1ch_DW01_add_4)
-                                       8.19e-03 8.07e-02 1.85e+08  184.722   0.1
+                                       8.21e-03 8.11e-02 1.85e+08  184.736   0.1
   smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2 (NLC_1ch_DW01_add_3)
-                                       7.79e-03 8.05e-02 1.83e+08  183.526   0.1
+                                       7.84e-03 8.10e-02 1.83e+08  183.556   0.1
   smc_float_adder/myFP_Adder/add_1128 (NLC_1ch_DW01_inc_0)
-                                       2.47e-03      N/A 6.69e+07   66.918   0.0
+                                       2.51e-03      N/A 6.69e+07   66.916   0.0
   smc_float_adder/myFP_Adder/sub_1143 (NLC_1ch_DW01_sub_7)
-                                       1.50e-02 6.16e-02 8.65e+07   86.618   0.1
+                                       1.50e-02 6.24e-02 8.65e+07   86.605   0.0
   smc_float_adder/myFP_Adder/sub_1158 (NLC_1ch_DW01_sub_6)
-                                       1.97e-02 7.35e-02 8.62e+07   86.269   0.1
+                                       1.98e-02 7.42e-02 8.61e+07   86.231   0.0
   smc_float_adder/myFP_Adder/add_1173 (NLC_1ch_DW01_add_2)
-                                       4.33e-02    0.116 1.81e+08  180.833   0.1
+                                       4.41e-02    0.118 1.82e+08  181.923   0.1
   smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_5)
-                                       1.63e-02    0.109 2.62e+08  261.951   0.2
+                                       1.67e-02    0.111 2.62e+08  261.961   0.1
   smc_float_adder/myFP_Adder/Convert7/Convert/add_388 (NLC_1ch_DW01_add_1)
-                                       7.60e-03 7.49e-02 2.05e+08  204.817   0.1
+                                       7.69e-03 7.57e-02 2.05e+08  204.882   0.1
   smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2 (NLC_1ch_DW01_add_0)
-                                       7.58e-03 7.48e-02 2.01e+08  201.415   0.1
+                                       7.63e-03 7.55e-02 2.01e+08  201.457   0.1
   smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945 (NLC_1ch_DW01_sub_4)
-                                       2.07e-02    0.134 3.47e+08  346.771   0.2
+                                       2.07e-02    0.135 3.47e+08  346.916   0.2
   smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_3)
-                                       2.61e-02    0.170 3.49e+08  349.199   0.2
+                                       2.63e-02    0.172 3.49e+08  349.376   0.2
   smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974 (NLC_1ch_DW_rightsh_2)
-                                          0.146    0.690 6.41e+08  642.140   0.4
+                                          0.146    0.688 6.42e+08  642.347   0.3
   smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974 (NLC_1ch_DW_rightsh_1)
-                                          0.185    0.931 6.43e+08  644.565   0.4
+                                          0.187    0.943 6.44e+08  644.782   0.3
   smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972 (NLC_1ch_DW_leftsh_1)
-                                       3.48e-02    0.342 3.48e+08  348.562   0.2
+                                       3.48e-02    0.342 3.48e+08  348.607   0.2
   smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_1)
                                           0.000    0.000 1.97e+08  196.662   0.1
   smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002 (NLC_1ch_DW_leftsh_0)
-                                       8.98e-05 2.30e-04 6.81e+08  681.451   0.4
+                                       1.79e-04 4.65e-04 6.83e+08  682.835   0.4
 1
