@@ -7,6 +7,8 @@ ADC raw resolution: 21 bits
 
 ENOB: 14 bits
 
+ADC range: -100 ~ 100 mV
+
 ADC sampling rate: 6 KHz
 
 System clock frequency: 6.144 MHz
