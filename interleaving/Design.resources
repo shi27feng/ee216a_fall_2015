@@ -1,0 +1,358 @@
+ 
+****************************************
+Report : resources
+Design : NLC_1ch
+Version: G-2012.06-SP1
+Date   : Mon Apr 18 11:53:04 2016
+****************************************
+
+Resource Sharing Report for design NLC_1ch in file ./NLC_1ch.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r1692    | DW_cmp       | width=33   |               | fp_to_smc_float/myFixed_to_FP/Comparator2_block.Comparator2/eq_1916 |
+        |                      |
+|          |              |            |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/Zcomp_block.Zcomp/eq_1916 |
+| r1948    | DW01_inc     | width=5    |               | add_200              |
+| r1950    | DW01_inc     | width=4    |               | add_203              |
+| r1952    | DW_cmp       | width=5    |               | lt_204               |
+| r1954    | DW_cmp       | width=5    |               | gte_204              |
+| r1956    | DW_cmp       | width=21   |               | lt_257               |
+| r1958    | DW_cmp       | width=21   |               | gte_252              |
+| r1960    | DW_cmp       | width=21   |               | lt_270               |
+| r1962    | DW_cmp       | width=21   |               | gte_265              |
+| r1964    | DW_cmp       | width=21   |               | lt_283               |
+| r1966    | DW_cmp       | width=21   |               | gte_278              |
+| r1968    | DW_cmp       | width=21   |               | lt_296               |
+| r1970    | DW_cmp       | width=21   |               | gte_291              |
+| r1972    | DW_cmp       | width=21   |               | lt_309               |
+| r1974    | DW_cmp       | width=21   |               | gte_304              |
+| r1976    | DW_cmp       | width=21   |               | lt_322               |
+| r1978    | DW_cmp       | width=21   |               | gte_317              |
+| r1980    | DW_cmp       | width=21   |               | lt_335               |
+| r1982    | DW_cmp       | width=21   |               | gte_330              |
+| r1984    | DW_cmp       | width=21   |               | lt_348               |
+| r1986    | DW_cmp       | width=21   |               | gte_343              |
+| r1988    | DW_cmp       | width=21   |               | lt_361               |
+| r1990    | DW_cmp       | width=21   |               | gte_356              |
+| r1992    | DW_cmp       | width=21   |               | lt_374               |
+| r1994    | DW_cmp       | width=21   |               | gte_369              |
+| r1996    | DW_cmp       | width=21   |               | lt_387               |
+| r1998    | DW_cmp       | width=21   |               | gte_382              |
+| r2000    | DW_cmp       | width=21   |               | lt_400               |
+| r2002    | DW_cmp       | width=21   |               | gte_395              |
+| r2004    | DW_cmp       | width=21   |               | lt_413               |
+| r2006    | DW_cmp       | width=21   |               | gte_408              |
+| r2008    | DW_cmp       | width=21   |               | lt_426               |
+| r2010    | DW_cmp       | width=21   |               | gte_421              |
+| r2012    | DW_cmp       | width=21   |               | lt_439               |
+| r2014    | DW_cmp       | width=21   |               | gte_434              |
+| r2016    | DW_cmp       | width=21   |               | lt_452               |
+| r2018    | DW_cmp       | width=21   |               | gte_447              |
+| r2020    | DW_cmp       | width=21   |               | lt_465               |
+| r2022    | DW_cmp       | width=21   |               | gte_460              |
+| r2024    | DW_cmp       | width=21   |               | lt_478               |
+| r2026    | DW_cmp       | width=21   |               | gte_473              |
+| r2028    | DW_cmp       | width=21   |               | lt_491               |
+| r2030    | DW_cmp       | width=21   |               | gte_486              |
+| r2032    | DW_cmp       | width=21   |               | lt_504               |
+| r2034    | DW_cmp       | width=21   |               | gte_499              |
+| r2036    | DW_cmp       | width=21   |               | lt_517               |
+| r2038    | DW_cmp       | width=21   |               | gte_512              |
+| r2040    | DW_cmp       | width=21   |               | lt_530               |
+| r2042    | DW_cmp       | width=21   |               | gte_525              |
+| r2044    | DW_cmp       | width=21   |               | lt_543               |
+| r2046    | DW_cmp       | width=21   |               | gte_538              |
+| r2048    | DW_cmp       | width=21   |               | lt_556               |
+| r2050    | DW_cmp       | width=21   |               | gte_551              |
+| r2052    | DW_cmp       | width=21   |               | lt_569               |
+| r2054    | DW_cmp       | width=21   |               | gte_564              |
+| r2056    | DW_cmp       | width=21   |               | lt_582               |
+| r2058    | DW_cmp       | width=21   |               | gte_577              |
+| r2060    | DW_cmp       | width=21   |               | lt_595               |
+| r2062    | DW_cmp       | width=21   |               | gte_590              |
+| r2064    | DW_cmp       | width=21   |               | lt_608               |
+| r2066    | DW_cmp       | width=21   |               | gte_603              |
+| r2068    | DW_cmp       | width=21   |               | lt_621               |
+| r2070    | DW_cmp       | width=21   |               | gte_616              |
+| r2072    | DW_cmp       | width=21   |               | lt_634               |
+| r2074    | DW_cmp       | width=21   |               | gte_629              |
+| r2076    | DW_cmp       | width=21   |               | lt_647               |
+| r2078    | DW_cmp       | width=21   |               | gte_642              |
+| r2080    | DW_cmp       | width=21   |               | lt_660               |
+| r2082    | DW_cmp       | width=21   |               | gte_655              |
+| r2084    | DW01_sub     | width=6    |               | sub_668              |
+| r2086    | DW01_sub     | width=6    |               | sub_996              |
+| r2088    | DW01_sub     | width=6    |               | sub_1324             |
+| r2090    | DW01_add     | width=9    |               | fp_to_smc_float/myFixed_to_FP/add_1949 |
+| r2092    | DW_cmp       | width=33   |               | fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/lt_1851 |
+| r2094    | DW01_sub     | width=33   |               | fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852 |
+| r2096    | DW_cmp       | width=32   |               | fp_to_smc_float/myFixed_to_FP/Comparator_block.Comparator/lt_1906 |
+| r2098    | DW01_add     | width=34   |               | fp_to_smc_float/myFixed_to_FP/Convert2/Convert/add_388 |
+| r2100    | DW01_add     | width=34   |               | fp_to_smc_float/myFixed_to_FP/Convert2/Convert/add_388_2 |
+| r2102    | DW01_sub     | width=6    |               | fp_to_smc_float/myFixed_to_FP/Negate_block.Negate/sub_1945 |
+| r2104    | DW_leftsh    | A_width=33 |               | fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972 |
+             |                      |
+|          |              | SH_width=7 |               |                      |
+| r2106    | DW_cmp       | width=22   |               | fp_to_smc_float/myFixed_to_FP/Comparator1_block.Comparator1/eq_1916 |
+| r2108    | DW_cmp       | width=11   |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter1/Zcomp_block.Zcomp/eq_1916 |
+| r2110    | DW01_inc     | width=5    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter1/myLZDPodd/add_328 |
+| r2112    | DW01_inc     | width=6    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDPodd/add_1090 |
+| r2140    | DW01_sub     | width=10   |               | sub_1_root_multi_std/myFP_Multiplier/sub_139_2 |
+| r2142    | DW01_add     | width=9    |               | multi_std/myFP_Multiplier/add_154 |
+| r2144    | DW01_add     | width=9    |               | multi_std/myFP_Multiplier/add_170 |
+| r2148    | DW01_sub     | width=10   |               | sub_1_root_smc_float_multiplier/myFP_Multiplier/sub_139_2 |
+| r2150    | DW01_add     | width=9    |               | smc_float_multiplier/myFP_Multiplier/add_154 |
+| r2152    | DW01_add     | width=9    |               | smc_float_multiplier/myFP_Multiplier/add_170 |
+| r2156    | DW01_add     | width=50   |               | multi_std/myFP_Multiplier/Convert2/Convert/add_388 |
+| r2158    | DW01_add     | width=50   |               | multi_std/myFP_Multiplier/Convert2/Convert/add_388_2 |
+| r2160    | DW01_add     | width=50   |               | smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388 |
+| r2162    | DW01_add     | width=50   |               | smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2 |
+| r2164    | DW01_inc     | width=9    |               | add_neg_mean/myFP_Adder/add_1128 |
+| r2166    | DW01_sub     | width=9    |               | add_neg_mean/myFP_Adder/sub_1143 |
+| r2168    | DW01_sub     | width=9    |               | add_neg_mean/myFP_Adder/sub_1158 |
+| r2170    | DW01_add     | width=35   |               | add_neg_mean/myFP_Adder/add_1173 |
+| r2176    | DW01_inc     | width=9    |               | smc_float_adder/myFP_Adder/add_1128 |
+| r2178    | DW01_sub     | width=9    |               | smc_float_adder/myFP_Adder/sub_1143 |
+| r2180    | DW01_sub     | width=9    |               | smc_float_adder/myFP_Adder/sub_1158 |
+| r2182    | DW01_add     | width=35   |               | smc_float_adder/myFP_Adder/add_1173 |
+| r2188    | DW_cmp       | width=27   |               | add_neg_mean/myFP_Adder/Abs_syn_block.Abs_syn/lt_1851 |
+| r2190    | DW01_sub     | width=27   |               | add_neg_mean/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 |
+| r2192    | DW_cmp       | width=27   |               | smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/lt_1851 |
+| r2194    | DW01_sub     | width=27   |               | smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 |
+| r2196    | DW_cmp       | width=26   |               | add_neg_mean/myFP_Adder/Comparator1_block.Comparator1/lt_1906 |
+| r2198    | DW_cmp       | width=26   |               | smc_float_adder/myFP_Adder/Comparator1_block.Comparator1/lt_1906 |
+| r2200    | DW01_add     | width=36   |               | add_neg_mean/myFP_Adder/Convert7/Convert/add_388 |
+| r2202    | DW01_add     | width=36   |               | add_neg_mean/myFP_Adder/Convert7/Convert/add_388_2 |
+| r2204    | DW01_add     | width=36   |               | smc_float_adder/myFP_Adder/Convert7/Convert/add_388 |
+| r2206    | DW01_add     | width=36   |               | smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2 |
+| r2208    | DW01_sub     | width=34   |               | add_neg_mean/myFP_Adder/Negate_block.Negate/sub_1945 |
+| r2210    | DW01_sub     | width=34   |               | add_neg_mean/myFP_Adder/Negate1_block.Negate1/sub_1945 |
+| r2212    | DW01_sub     | width=34   |               | smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945 |
+| r2214    | DW01_sub     | width=34   |               | smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945 |
+| r2216    | DW_rightsh   | A_width=33 |               | add_neg_mean/myFP_Adder/Shifter1_block.Shifter1/sra_1974 |
+   |               |                      |
+|          |              | SH_width=9 |               |                      |
+| r2218    | DW_rightsh   | A_width=33 |               | add_neg_mean/myFP_Adder/Shifter2_block.Shifter2/sra_1974 |
+   |               |                      |
+|          |              | SH_width=9 |               |                      |
+| r2220    | DW_rightsh   | A_width=33 |               | smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974 |
+|               |                      |
+|          |              | SH_width=9 |               |                      |
+| r2222    | DW_rightsh   | A_width=33 |               | smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974 |
+|               |                      |
+|          |              | SH_width=9 |               |                      |
+| r2224    | DW_leftsh    | A_width=24 |               | add_neg_mean/myFP_Adder/Shifter3_block.Shifter3/sla_1972 |
+   |               |                      |
+|          |              | SH_width=6 |               |                      |
+| r2226    | DW_leftsh    | A_width=24 |               | smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972 |
+|               |                      |
+|          |              | SH_width=6 |               |                      |
+| r2228    | DW_cmp       | width=8    |               | add_neg_mean/myFP_Adder/Comparator_block.Comparator/gte_1921 |
+| r2230    | DW_cmp       | width=8    |               | smc_float_adder/myFP_Adder/Comparator_block.Comparator/gte_1921 |
+| r2232    | DW_cmp       | width=24   |               | add_neg_mean/myFP_Adder/mygetmsbpos1/Zcomp_block.Zcomp/eq_1916 |
+| r2234    | DW_cmp       | width=24   |               | smc_float_adder/myFP_Adder/mygetmsbpos1/Zcomp_block.Zcomp/eq_1916 |
+| r2236    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter1/myLZDP1/Comparator_block.Comparator/ne_1917 |
+| r2238    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter1/myLZDP2/Comparator_block.Comparator/ne_1917 |
+| r2240    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP1/Comparator_block.Comparator/ne_1917 |
+| r2242    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP2/Comparator_block.Comparator/ne_1917 |
+| r2244    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP3/Comparator_block.Comparator/ne_1917 |
+| r2246    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP4/Comparator_block.Comparator/ne_1917 |
+| r2248    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP5/Comparator_block.Comparator/ne_1917 |
+| r2250    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP6/Comparator_block.Comparator/ne_1917 |
+| r2252    | DW_cmp       | width=4    |               | fp_to_smc_float/myFixed_to_FP/myLeading_Zero_Counter2/myLZDP7/Comparator_block.Comparator/ne_1917 |
+| r2254    | DW_cmp       | width=4    |               | add_neg_mean/myFP_Adder/mygetmsbpos1/myLZDP1/Comparator_block.Comparator/ne_1917 |
+| r2256    | DW_cmp       | width=4    |               | add_neg_mean/myFP_Adder/mygetmsbpos1/myLZDP2/Comparator_block.Comparator/ne_1917 |
+| r2258    | DW_cmp       | width=4    |               | add_neg_mean/myFP_Adder/mygetmsbpos1/myLZDP3/Comparator_block.Comparator/ne_1917 |
+| r2260    | DW_cmp       | width=4    |               | add_neg_mean/myFP_Adder/mygetmsbpos1/myLZDP4/Comparator_block.Comparator/ne_1917 |
+| r2262    | DW_cmp       | width=4    |               | add_neg_mean/myFP_Adder/mygetmsbpos1/myLZDP5/Comparator_block.Comparator/ne_1917 |
+| r2264    | DW_cmp       | width=4    |               | smc_float_adder/myFP_Adder/mygetmsbpos1/myLZDP1/Comparator_block.Comparator/ne_1917 |
+| r2266    | DW_cmp       | width=4    |               | smc_float_adder/myFP_Adder/mygetmsbpos1/myLZDP2/Comparator_block.Comparator/ne_1917 |
+| r2268    | DW_cmp       | width=4    |               | smc_float_adder/myFP_Adder/mygetmsbpos1/myLZDP3/Comparator_block.Comparator/ne_1917 |
+| r2270    | DW_cmp       | width=4    |               | smc_float_adder/myFP_Adder/mygetmsbpos1/myLZDP4/Comparator_block.Comparator/ne_1917 |
+| r2272    | DW_cmp       | width=4    |               | smc_float_adder/myFP_Adder/mygetmsbpos1/myLZDP5/Comparator_block.Comparator/ne_1917 |
+| r2274    | DW01_sub     | width=9    |               | smc_float_to_fp/myFP_to_Fixed/sub_80 |
+| r2276    | DW01_sub     | width=21   |               | smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945 |
+| r2278    | DW_leftsh    | A_width=44 |               | smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002 |
+             |                      |
+|          |              | SH_width=8 |               |                      |
+| r2280    | DW01_sub     | width=8    |               | smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sub_2002 |
+| r2282    | DW_rightsh   | A_width=44 |               | smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/srl_2002 |
+             |                      |
+|          |              | SH_width=8 |               |                      |
+| r2864    | DW_mult_uns  | a_width=24 |               | smc_float_multiplier/myFP_Multiplier/mult_492 |
+ |            |               |                      |
+|          |              | b_width=24 |               |                      |
+| r3446    | DW_mult_uns  | a_width=24 |               | multi_std/myFP_Multiplier/mult_492 |
+            |            |               |                      |
+|          |              | b_width=24 |               |                      |
+| r4032    | DW01_sub     | width=10   |               | sub_1_root_smc_float_adder/myFP_Adder/add_1190 |
+| r4034    | DW01_inc     | width=10   |               | add_0_root_smc_float_adder/myFP_Adder/add_1190 |
+| r4620    | DW01_sub     | width=10   |               | sub_1_root_add_neg_mean/myFP_Adder/add_1190 |
+| r4622    | DW01_inc     | width=10   |               | add_0_root_add_neg_mean/myFP_Adder/add_1190 |
+| r5274    | DW01_add     | width=2    |               | add_20_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5276    | DW01_add     | width=3    |               | add_19_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5278    | DW01_add     | width=4    |               | add_18_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5280    | DW01_add     | width=5    |               | add_6_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5282    | DW01_add     | width=5    |               | add_5_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5284    | DW01_add     | width=5    |               | add_8_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5286    | DW01_add     | width=5    |               | add_9_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5288    | DW01_add     | width=5    |               | add_7_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5290    | DW01_add     | width=5    |               | add_4_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5292    | DW01_add     | width=5    |               | add_2_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5294    | DW01_add     | width=5    |               | add_3_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5296    | DW01_add     | width=5    |               | add_1_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+| r5298    | DW01_add     | width=5    |               | add_0_root_add_8_root_fp_to_smc_float/myFixed_to_FP/mylog2/add_1710_21 |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| smc_float_multiplier/myFP_Multiplier/mult_492              |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| multi_std/myFP_Multiplier/mult_492    |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| add_0_root_smc_float_adder/myFP_Adder/add_1190             |                |
+|                    | DW01_inc         | rpl                |                |
+| add_0_root_add_neg_mean/myFP_Adder/add_1190                |                |
+|                    | DW01_inc         | rpl                |                |
+| fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852                |
+|                    | DW01_sub         | rpl                |                |
+| lt_257             | DW_cmp           | apparch (area)     |                |
+| gte_252            | DW_cmp           | apparch (area)     |                |
+| lt_270             | DW_cmp           | apparch (area)     |                |
+| gte_265            | DW_cmp           | apparch (area)     |                |
+| lt_283             | DW_cmp           | apparch (area)     |                |
+| gte_278            | DW_cmp           | apparch (area)     |                |
+| lt_296             | DW_cmp           | apparch (area)     |                |
+| gte_291            | DW_cmp           | apparch (area)     |                |
+| lt_309             | DW_cmp           | apparch (area)     |                |
+| gte_304            | DW_cmp           | apparch (area)     |                |
+| lt_322             | DW_cmp           | apparch (area)     |                |
+| gte_317            | DW_cmp           | apparch (area)     |                |
+| lt_335             | DW_cmp           | apparch (area)     |                |
+| gte_330            | DW_cmp           | apparch (area)     |                |
+| lt_348             | DW_cmp           | apparch (area)     |                |
+| gte_343            | DW_cmp           | apparch (area)     |                |
+| lt_361             | DW_cmp           | apparch (area)     |                |
+| gte_356            | DW_cmp           | apparch (area)     |                |
+| lt_374             | DW_cmp           | apparch (area)     |                |
+| gte_369            | DW_cmp           | apparch (area)     |                |
+| lt_387             | DW_cmp           | apparch (area)     |                |
+| gte_382            | DW_cmp           | apparch (area)     |                |
+| lt_400             | DW_cmp           | apparch (area)     |                |
+| gte_395            | DW_cmp           | apparch (area)     |                |
+| lt_413             | DW_cmp           | apparch (area)     |                |
+| gte_408            | DW_cmp           | apparch (area)     |                |
+| lt_426             | DW_cmp           | apparch (area)     |                |
+| gte_421            | DW_cmp           | apparch (area)     |                |
+| lt_439             | DW_cmp           | apparch (area)     |                |
+| gte_434            | DW_cmp           | apparch (area)     |                |
+| lt_452             | DW_cmp           | apparch (area)     |                |
+| gte_447            | DW_cmp           | apparch (area)     |                |
+| lt_465             | DW_cmp           | apparch (area)     |                |
+| gte_460            | DW_cmp           | apparch (area)     |                |
+| lt_478             | DW_cmp           | apparch (area)     |                |
+| gte_473            | DW_cmp           | apparch (area)     |                |
+| lt_491             | DW_cmp           | apparch (area)     |                |
+| gte_486            | DW_cmp           | apparch (area)     |                |
+| lt_504             | DW_cmp           | apparch (area)     |                |
+| gte_499            | DW_cmp           | apparch (area)     |                |
+| lt_517             | DW_cmp           | apparch (area)     |                |
+| gte_512            | DW_cmp           | apparch (area)     |                |
+| lt_530             | DW_cmp           | apparch (area)     |                |
+| gte_525            | DW_cmp           | apparch (area)     |                |
+| lt_543             | DW_cmp           | apparch (area)     |                |
+| gte_538            | DW_cmp           | apparch (area)     |                |
+| lt_556             | DW_cmp           | apparch (area)     |                |
+| gte_551            | DW_cmp           | apparch (area)     |                |
+| lt_569             | DW_cmp           | apparch (area)     |                |
+| gte_564            | DW_cmp           | apparch (area)     |                |
+| lt_582             | DW_cmp           | apparch (area)     |                |
+| gte_577            | DW_cmp           | apparch (area)     |                |
+| lt_595             | DW_cmp           | apparch (area)     |                |
+| gte_590            | DW_cmp           | apparch (area)     |                |
+| lt_608             | DW_cmp           | apparch (area)     |                |
+| gte_603            | DW_cmp           | apparch (area)     |                |
+| lt_621             | DW_cmp           | apparch (area)     |                |
+| gte_616            | DW_cmp           | apparch (area)     |                |
+| lt_634             | DW_cmp           | apparch (area)     |                |
+| gte_629            | DW_cmp           | apparch (area)     |                |
+| lt_660             | DW_cmp           | apparch (area)     |                |
+| gte_655            | DW_cmp           | apparch (area)     |                |
+| fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972              |
+|                    | DW_leftsh        | astr (area)        |                |
+| multi_std/myFP_Multiplier/add_170     |                    |                |
+|                    | DW01_add         | rpl                |                |
+| smc_float_multiplier/myFP_Multiplier/add_170               |                |
+|                    | DW01_add         | rpl                |                |
+| multi_std/myFP_Multiplier/Convert2/Convert/add_388         |                |
+|                    | DW01_add         | rpl                |                |
+| multi_std/myFP_Multiplier/Convert2/Convert/add_388_2       |                |
+|                    | DW01_add         | rpl                |                |
+| smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388               |
+|                    | DW01_add         | rpl                |                |
+| smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2             |
+|                    | DW01_add         | rpl                |                |
+| add_neg_mean/myFP_Adder/add_1128      |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| add_neg_mean/myFP_Adder/sub_1143      |                    |                |
+|                    | DW01_sub         | rpl                |                |
+| add_neg_mean/myFP_Adder/sub_1158      |                    |                |
+|                    | DW01_sub         | rpl                |                |
+| add_neg_mean/myFP_Adder/add_1173      |                    |                |
+|                    | DW01_add         | rpl                |                |
+| smc_float_adder/myFP_Adder/add_1128   |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| smc_float_adder/myFP_Adder/sub_1143   |                    |                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_adder/myFP_Adder/sub_1158   |                    |                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_adder/myFP_Adder/add_1173   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| add_neg_mean/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852     |                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852  |                |
+|                    | DW01_sub         | rpl                |                |
+| add_neg_mean/myFP_Adder/Convert7/Convert/add_388           |                |
+|                    | DW01_add         | rpl                |                |
+| add_neg_mean/myFP_Adder/Convert7/Convert/add_388_2         |                |
+|                    | DW01_add         | rpl                |                |
+| smc_float_adder/myFP_Adder/Convert7/Convert/add_388        |                |
+|                    | DW01_add         | rpl                |                |
+| smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2      |                |
+|                    | DW01_add         | rpl                |                |
+| add_neg_mean/myFP_Adder/Negate_block.Negate/sub_1945       |                |
+|                    | DW01_sub         | rpl                |                |
+| add_neg_mean/myFP_Adder/Negate1_block.Negate1/sub_1945     |                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945    |                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945  |                |
+|                    | DW01_sub         | rpl                |                |
+| add_neg_mean/myFP_Adder/Shifter1_block.Shifter1/sra_1974   |                |
+|                    | DW_rightsh       | astr (area)        |                |
+| add_neg_mean/myFP_Adder/Shifter2_block.Shifter2/sra_1974   |                |
+|                    | DW_rightsh       | astr (area)        |                |
+| smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974                 |
+|                    | DW_rightsh       | astr (area)        |                |
+| smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974                 |
+|                    | DW_rightsh       | astr (area)        |                |
+| add_neg_mean/myFP_Adder/Shifter3_block.Shifter3/sla_1972   |                |
+|                    | DW_leftsh        | astr (area)        |                |
+| smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972                 |
+|                    | DW_leftsh        | astr (area)        |                |
+| smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945                |
+|                    | DW01_sub         | rpl                |                |
+| smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002              |
+|                    | DW_leftsh        | astr (area)        |                |
+===============================================================================
+
+
+No multiplexors to report
+1

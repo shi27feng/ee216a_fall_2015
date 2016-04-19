@@ -1,0 +1,175 @@
+ 
+****************************************
+Report : area
+Design : NLC_1ch
+Version: G-2012.06-SP1
+Date   : Mon Apr 18 11:52:02 2016
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
+
+Number of ports:                        55236
+Number of nets:                         83121
+Number of cells:                        34300
+Number of combinational cells:          30525
+Number of sequential cells:              3675
+Number of macros:                           0
+Number of buf/inv:                       4335
+Number of references:                     140
+
+Combinational area:       110820.509246
+Buf/Inv area:             11245.618209
+Noncombinational area:    25104.344966
+Net Interconnect area:    60042.504821 
+
+Total cell area:          135924.854213
+Total area:               195967.359033
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  ---------------------
+NLC_1ch                           135924.8542    100.0   84251.2788  25104.3450  0.0000  NLC_1ch
+add_0_root_add_neg_mean/myFP_Adder/add_1190
+                                      32.0221      0.0      32.0221      0.0000  0.0000  NLC_1ch_DW01_inc_6
+add_0_root_smc_float_adder/myFP_Adder/add_1190
+                                      32.0221      0.0      32.0221      0.0000  0.0000  NLC_1ch_DW01_inc_5
+add_neg_mean/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852
+                                     156.0444      0.1     156.0444      0.0000  0.0000  NLC_1ch_DW01_sub_8
+add_neg_mean/myFP_Adder/Convert7/Convert/add_388
+                                     165.1936      0.1     165.1936      0.0000  0.0000  NLC_1ch_DW01_add_3
+add_neg_mean/myFP_Adder/Convert7/Convert/add_388_2
+                                     162.6522      0.1     162.6522      0.0000  0.0000  NLC_1ch_DW01_add_2
+add_neg_mean/myFP_Adder/Negate1_block.Negate1/sub_1945
+                                     210.9395      0.2     210.9395      0.0000  0.0000  NLC_1ch_DW01_sub_5
+add_neg_mean/myFP_Adder/Negate_block.Negate/sub_1945
+                                     210.9395      0.2     210.9395      0.0000  0.0000  NLC_1ch_DW01_sub_6
+add_neg_mean/myFP_Adder/Shifter1_block.Shifter1/sra_1974
+                                     524.2991      0.4     524.2991      0.0000  0.0000  NLC_1ch_DW_rightsh_4
+add_neg_mean/myFP_Adder/Shifter2_block.Shifter2/sra_1974
+                                     554.2881      0.4     554.2881      0.0000  0.0000  NLC_1ch_DW_rightsh_3
+add_neg_mean/myFP_Adder/Shifter3_block.Shifter3/sla_1972
+                                     345.6359      0.3     345.6359      0.0000  0.0000  NLC_1ch_DW_leftsh_2
+add_neg_mean/myFP_Adder/add_1128      24.3978      0.0      24.3978      0.0000  0.0000  NLC_1ch_DW01_inc_1
+add_neg_mean/myFP_Adder/add_1173     170.5306      0.1     170.5306      0.0000  0.0000  NLC_1ch_DW01_add_5
+add_neg_mean/myFP_Adder/sub_1143      51.0829      0.0      51.0829      0.0000  0.0000  NLC_1ch_DW01_sub_12
+add_neg_mean/myFP_Adder/sub_1158      51.0829      0.0      51.0829      0.0000  0.0000  NLC_1ch_DW01_sub_11
+fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852
+                                     129.6134      0.1     129.6134      0.0000  0.0000  NLC_1ch_DW01_sub_19
+fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972
+                                     362.9176      0.3     362.9176      0.0000  0.0000  NLC_1ch_DW_leftsh_3
+gte_252                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_69
+gte_265                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_67
+gte_278                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_65
+gte_291                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_63
+gte_304                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_61
+gte_317                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_59
+gte_330                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_57
+gte_343                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_55
+gte_356                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_53
+gte_369                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_51
+gte_382                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_49
+gte_395                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_47
+gte_408                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_45
+gte_421                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_43
+gte_434                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_41
+gte_447                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_39
+gte_460                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_37
+gte_473                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_35
+gte_486                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_33
+gte_499                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_31
+gte_512                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_29
+gte_525                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_27
+gte_538                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_25
+gte_551                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_23
+gte_564                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_21
+gte_577                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_19
+gte_590                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_17
+gte_603                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_15
+gte_616                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_13
+gte_629                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_11
+gte_655                              143.0831      0.1     143.0831      0.0000  0.0000  NLC_1ch_DW_cmp_7
+lt_257                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_70
+lt_270                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_68
+lt_283                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_66
+lt_296                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_64
+lt_309                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_62
+lt_322                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_60
+lt_335                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_58
+lt_348                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_56
+lt_361                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_54
+lt_374                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_52
+lt_387                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_50
+lt_400                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_48
+lt_413                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_46
+lt_426                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_44
+lt_439                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_42
+lt_452                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_40
+lt_465                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_38
+lt_478                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_36
+lt_491                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_34
+lt_504                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_32
+lt_517                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_30
+lt_530                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_28
+lt_543                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_26
+lt_556                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_24
+lt_569                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_22
+lt_582                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_20
+lt_595                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_18
+lt_608                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_16
+lt_621                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_14
+lt_634                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_12
+lt_660                               146.3869      0.1     146.3869      0.0000  0.0000  NLC_1ch_DW_cmp_8
+multi_std/myFP_Multiplier/Convert2/Convert/add_388
+                                     150.1991      0.1     150.1991      0.0000  0.0000  NLC_1ch_DW01_add_9
+multi_std/myFP_Multiplier/Convert2/Convert/add_388_2
+                                     148.1660      0.1     148.1660      0.0000  0.0000  NLC_1ch_DW01_add_8
+multi_std/myFP_Multiplier/add_170     40.1548      0.0      40.1548      0.0000  0.0000  NLC_1ch_DW01_add_12
+multi_std/myFP_Multiplier/mult_492
+                                    5189.8746      3.8    5189.8746      0.0000  0.0000  NLC_1ch_DW_mult_uns_1
+smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852
+                                     156.0444      0.1     156.0444      0.0000  0.0000  NLC_1ch_DW01_sub_7
+smc_float_adder/myFP_Adder/Convert7/Convert/add_388
+                                     165.1936      0.1     165.1936      0.0000  0.0000  NLC_1ch_DW01_add_1
+smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2
+                                     162.6522      0.1     162.6522      0.0000  0.0000  NLC_1ch_DW01_add_0
+smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945
+                                     210.9395      0.2     210.9395      0.0000  0.0000  NLC_1ch_DW01_sub_3
+smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945
+                                     210.9395      0.2     210.9395      0.0000  0.0000  NLC_1ch_DW01_sub_4
+smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974
+                                     554.2881      0.4     554.2881      0.0000  0.0000  NLC_1ch_DW_rightsh_2
+smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974
+                                     554.2881      0.4     554.2881      0.0000  0.0000  NLC_1ch_DW_rightsh_1
+smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972
+                                     345.6359      0.3     345.6359      0.0000  0.0000  NLC_1ch_DW_leftsh_1
+smc_float_adder/myFP_Adder/add_1128
+                                      24.3978      0.0      24.3978      0.0000  0.0000  NLC_1ch_DW01_inc_0
+smc_float_adder/myFP_Adder/add_1173
+                                     170.5306      0.1     170.5306      0.0000  0.0000  NLC_1ch_DW01_add_4
+smc_float_adder/myFP_Adder/sub_1143
+                                      51.0829      0.0      51.0829      0.0000  0.0000  NLC_1ch_DW01_sub_10
+smc_float_adder/myFP_Adder/sub_1158
+                                      51.0829      0.0      51.0829      0.0000  0.0000  NLC_1ch_DW01_sub_9
+smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388
+                                     150.1991      0.1     150.1991      0.0000  0.0000  NLC_1ch_DW01_add_7
+smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2
+                                     148.1660      0.1     148.1660      0.0000  0.0000  NLC_1ch_DW01_add_6
+smc_float_multiplier/myFP_Multiplier/add_170
+                                      40.1548      0.0      40.1548      0.0000  0.0000  NLC_1ch_DW01_add_10
+smc_float_multiplier/myFP_Multiplier/mult_492
+                                    5189.8746      3.8    5189.8746      0.0000  0.0000  NLC_1ch_DW_mult_uns_0
+smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945
+                                     122.7516      0.1     122.7516      0.0000  0.0000  NLC_1ch_DW01_sub_1
+smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002
+                                     575.3820      0.4     575.3820      0.0000  0.0000  NLC_1ch_DW_leftsh_0
+--------------------------------  -----------  -------  -----------  ----------  ------  ---------------------
+Total                                                   110820.5092  25104.3450  0.0000
+
+1

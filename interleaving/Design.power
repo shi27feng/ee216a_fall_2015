@@ -1,0 +1,281 @@
+Loading db file '/w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : NLC_1ch
+Version: G-2012.06-SP1
+Date   : Mon Apr 18 11:53:03 2016
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+NLC_1ch                140000            saed32rvt_ff1p16vn40c
+NLC_1ch_DW_leftsh_0    8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_1     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_leftsh_1    8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_leftsh_2    8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_rightsh_1   8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_rightsh_2   8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_rightsh_3   8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_rightsh_4   8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_3     8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_4     8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_5     8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_6     8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_0     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_1     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_2     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_3     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_7     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_8     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_4     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_9     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_10    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_inc_0     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_5     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_11    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_12    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_inc_1     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_6     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_7     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_8     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_9     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_10    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_add_12    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_leftsh_3    8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_7       ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_8       ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_11      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_12      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_13      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_14      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_15      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_16      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_17      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_18      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_19      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_20      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_21      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_22      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_23      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_24      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_25      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_26      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_27      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_28      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_29      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_30      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_31      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_32      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_33      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_34      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_35      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_36      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_37      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_38      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_39      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_40      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_41      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_42      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_43      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_44      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_45      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_46      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_47      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_48      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_49      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_50      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_51      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_52      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_53      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_54      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_55      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_56      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_57      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_58      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_59      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_60      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_61      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_62      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_63      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_64      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_65      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_66      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_67      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_68      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_69      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_cmp_70      ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_sub_19    ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_inc_6     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW01_inc_5     ForQA             saed32rvt_ff1p16vn40c
+NLC_1ch_DW_mult_uns_1  8000              saed32rvt_ff1p16vn40c
+NLC_1ch_DW_mult_uns_0  8000              saed32rvt_ff1p16vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+NLC_1ch                                   8.604  249.775 2.12e+11 2.12e+05 100.0
+  smc_float_multiplier/myFP_Multiplier/mult_492 (NLC_1ch_DW_mult_uns_0)
+                                          0.624    3.050 9.31e+09 9.31e+03   4.4
+  multi_std/myFP_Multiplier/mult_492 (NLC_1ch_DW_mult_uns_1)
+                                          1.428    6.769 9.50e+09 9.51e+03   4.5
+  add_0_root_smc_float_adder/myFP_Adder/add_1190 (NLC_1ch_DW01_inc_5)
+                                       1.15e-03      N/A 8.77e+07   87.718   0.0
+  add_0_root_add_neg_mean/myFP_Adder/add_1190 (NLC_1ch_DW01_inc_6)
+                                       2.09e-03      N/A 8.85e+07   88.464   0.0
+  fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_19)
+                                       1.30e-02    0.141 2.09e+08  209.595   0.1
+  lt_257 (NLC_1ch_DW_cmp_70)           4.03e-02    0.115 1.79e+08  179.117   0.1
+  gte_252 (NLC_1ch_DW_cmp_69)          3.94e-02    0.106 1.81e+08  180.722   0.1
+  lt_270 (NLC_1ch_DW_cmp_68)           4.03e-02    0.115 1.79e+08  179.200   0.1
+  gte_265 (NLC_1ch_DW_cmp_67)          3.95e-02    0.106 1.81e+08  180.725   0.1
+  lt_283 (NLC_1ch_DW_cmp_66)           4.06e-02    0.116 1.79e+08  179.279   0.1
+  gte_278 (NLC_1ch_DW_cmp_65)          3.96e-02    0.106 1.80e+08  180.632   0.1
+  lt_296 (NLC_1ch_DW_cmp_64)           4.03e-02    0.115 1.79e+08  179.293   0.1
+  gte_291 (NLC_1ch_DW_cmp_63)          3.93e-02    0.106 1.81e+08  180.757   0.1
+  lt_309 (NLC_1ch_DW_cmp_62)           4.04e-02    0.115 1.79e+08  179.188   0.1
+  gte_304 (NLC_1ch_DW_cmp_61)          3.94e-02    0.106 1.81e+08  180.805   0.1
+  lt_322 (NLC_1ch_DW_cmp_60)           4.05e-02    0.115 1.79e+08  179.221   0.1
+  gte_317 (NLC_1ch_DW_cmp_59)          3.94e-02    0.106 1.81e+08  180.744   0.1
+  lt_335 (NLC_1ch_DW_cmp_58)           4.04e-02    0.115 1.79e+08  179.133   0.1
+  gte_330 (NLC_1ch_DW_cmp_57)          3.96e-02    0.107 1.80e+08  180.643   0.1
+  lt_348 (NLC_1ch_DW_cmp_56)           4.05e-02    0.115 1.79e+08  179.199   0.1
+  gte_343 (NLC_1ch_DW_cmp_55)          3.94e-02    0.106 1.81e+08  180.730   0.1
+  lt_361 (NLC_1ch_DW_cmp_54)           4.04e-02    0.115 1.79e+08  179.120   0.1
+  gte_356 (NLC_1ch_DW_cmp_53)          3.93e-02    0.106 1.81e+08  180.794   0.1
+  lt_374 (NLC_1ch_DW_cmp_52)           4.05e-02    0.116 1.79e+08  179.207   0.1
+  gte_369 (NLC_1ch_DW_cmp_51)          3.95e-02    0.106 1.81e+08  180.757   0.1
+  lt_387 (NLC_1ch_DW_cmp_50)           4.06e-02    0.116 1.79e+08  179.194   0.1
+  gte_382 (NLC_1ch_DW_cmp_49)          3.95e-02    0.106 1.81e+08  180.724   0.1
+  lt_400 (NLC_1ch_DW_cmp_48)           4.03e-02    0.115 1.79e+08  179.112   0.1
+  gte_395 (NLC_1ch_DW_cmp_47)          3.96e-02    0.107 1.80e+08  180.617   0.1
+  lt_413 (NLC_1ch_DW_cmp_46)           4.02e-02    0.115 1.79e+08  179.095   0.1
+  gte_408 (NLC_1ch_DW_cmp_45)          3.94e-02    0.106 1.81e+08  180.704   0.1
+  lt_426 (NLC_1ch_DW_cmp_44)           4.05e-02    0.115 1.79e+08  179.085   0.1
+  gte_421 (NLC_1ch_DW_cmp_43)          3.95e-02    0.106 1.81e+08  180.737   0.1
+  lt_439 (NLC_1ch_DW_cmp_42)           4.05e-02    0.116 1.79e+08  179.183   0.1
+  gte_434 (NLC_1ch_DW_cmp_41)          3.95e-02    0.106 1.81e+08  180.718   0.1
+  lt_452 (NLC_1ch_DW_cmp_40)           4.04e-02    0.115 1.79e+08  179.175   0.1
+  gte_447 (NLC_1ch_DW_cmp_39)          3.92e-02    0.106 1.81e+08  180.645   0.1
+  lt_465 (NLC_1ch_DW_cmp_38)           4.02e-02    0.114 1.79e+08  179.247   0.1
+  gte_460 (NLC_1ch_DW_cmp_37)          3.93e-02    0.106 1.81e+08  180.700   0.1
+  lt_478 (NLC_1ch_DW_cmp_36)           4.05e-02    0.115 1.79e+08  179.190   0.1
+  gte_473 (NLC_1ch_DW_cmp_35)          3.92e-02    0.106 1.81e+08  180.860   0.1
+  lt_491 (NLC_1ch_DW_cmp_34)           4.05e-02    0.115 1.79e+08  179.110   0.1
+  gte_486 (NLC_1ch_DW_cmp_33)          3.94e-02    0.106 1.81e+08  180.775   0.1
+  lt_504 (NLC_1ch_DW_cmp_32)           4.04e-02    0.115 1.79e+08  179.092   0.1
+  gte_499 (NLC_1ch_DW_cmp_31)          3.93e-02    0.106 1.81e+08  180.741   0.1
+  lt_517 (NLC_1ch_DW_cmp_30)           4.06e-02    0.115 1.79e+08  179.263   0.1
+  gte_512 (NLC_1ch_DW_cmp_29)          3.95e-02    0.106 1.81e+08  180.660   0.1
+  lt_530 (NLC_1ch_DW_cmp_28)           4.06e-02    0.115 1.79e+08  179.132   0.1
+  gte_525 (NLC_1ch_DW_cmp_27)          3.96e-02    0.107 1.80e+08  180.639   0.1
+  lt_543 (NLC_1ch_DW_cmp_26)           4.05e-02    0.115 1.79e+08  179.271   0.1
+  gte_538 (NLC_1ch_DW_cmp_25)          3.92e-02    0.106 1.81e+08  180.663   0.1
+  lt_556 (NLC_1ch_DW_cmp_24)           4.04e-02    0.115 1.79e+08  179.283   0.1
+  gte_551 (NLC_1ch_DW_cmp_23)          3.91e-02    0.105 1.81e+08  180.700   0.1
+  lt_569 (NLC_1ch_DW_cmp_22)           4.04e-02    0.115 1.79e+08  179.088   0.1
+  gte_564 (NLC_1ch_DW_cmp_21)          3.94e-02    0.106 1.81e+08  180.741   0.1
+  lt_582 (NLC_1ch_DW_cmp_20)           4.04e-02    0.115 1.79e+08  179.285   0.1
+  gte_577 (NLC_1ch_DW_cmp_19)          3.92e-02    0.105 1.81e+08  180.706   0.1
+  lt_595 (NLC_1ch_DW_cmp_18)           4.03e-02    0.114 1.79e+08  179.386   0.1
+  gte_590 (NLC_1ch_DW_cmp_17)          3.92e-02    0.106 1.81e+08  180.693   0.1
+  lt_608 (NLC_1ch_DW_cmp_16)           4.04e-02    0.115 1.79e+08  179.206   0.1
+  gte_603 (NLC_1ch_DW_cmp_15)          3.92e-02    0.105 1.81e+08  180.731   0.1
+  lt_621 (NLC_1ch_DW_cmp_14)           4.07e-02    0.115 1.79e+08  179.187   0.1
+  gte_616 (NLC_1ch_DW_cmp_13)          3.96e-02    0.107 1.80e+08  180.598   0.1
+  lt_634 (NLC_1ch_DW_cmp_12)           4.04e-02    0.115 1.79e+08  179.152   0.1
+  gte_629 (NLC_1ch_DW_cmp_11)          3.95e-02    0.106 1.81e+08  180.692   0.1
+  lt_660 (NLC_1ch_DW_cmp_8)            4.04e-02    0.115 1.79e+08  179.164   0.1
+  gte_655 (NLC_1ch_DW_cmp_7)           3.94e-02    0.106 1.81e+08  180.743   0.1
+  fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972 (NLC_1ch_DW_leftsh_3)
+                                       9.94e-02    0.728 4.45e+08  446.010   0.2
+  multi_std/myFP_Multiplier/add_170 (NLC_1ch_DW01_add_12)
+                                       8.83e-03 1.59e-02 5.56e+07   55.661   0.0
+  smc_float_multiplier/myFP_Multiplier/add_170 (NLC_1ch_DW01_add_10)
+                                       2.13e-03 3.07e-03 4.09e+07   40.898   0.0
+  multi_std/myFP_Multiplier/Convert2/Convert/add_388 (NLC_1ch_DW01_add_9)
+                                       7.40e-03 7.23e-02 1.85e+08  184.786   0.1
+  multi_std/myFP_Multiplier/Convert2/Convert/add_388_2 (NLC_1ch_DW01_add_8)
+                                       7.01e-03 7.22e-02 1.84e+08  183.589   0.1
+  smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388 (NLC_1ch_DW01_add_7)
+                                       2.35e-03 2.43e-02 1.79e+08  179.143   0.1
+  smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2 (NLC_1ch_DW01_add_6)
+                                       2.29e-03 2.43e-02 1.78e+08  178.269   0.1
+  add_neg_mean/myFP_Adder/add_1128 (NLC_1ch_DW01_inc_1)
+                                       2.71e-03      N/A 6.69e+07   66.932   0.0
+  add_neg_mean/myFP_Adder/sub_1143 (NLC_1ch_DW01_sub_12)
+                                       1.59e-02 6.58e-02 8.65e+07   86.603   0.0
+  add_neg_mean/myFP_Adder/sub_1158 (NLC_1ch_DW01_sub_11)
+                                       2.19e-02 8.08e-02 8.61e+07   86.196   0.0
+  add_neg_mean/myFP_Adder/add_1173 (NLC_1ch_DW01_add_5)
+                                       4.70e-02    0.126 1.81e+08  181.568   0.1
+  smc_float_adder/myFP_Adder/add_1128 (NLC_1ch_DW01_inc_0)
+                                       2.90e-04      N/A 6.66e+07   66.576   0.0
+  smc_float_adder/myFP_Adder/sub_1143 (NLC_1ch_DW01_sub_10)
+                                       2.76e-03 5.76e-03 9.01e+07   90.138   0.0
+  smc_float_adder/myFP_Adder/sub_1158 (NLC_1ch_DW01_sub_9)
+                                       1.32e-03 7.09e-03 8.95e+07   89.499   0.0
+  smc_float_adder/myFP_Adder/add_1173 (NLC_1ch_DW01_add_4)
+                                       9.66e-03 2.17e-02 1.64e+08  164.101   0.1
+  add_neg_mean/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_8)
+                                       1.79e-02    0.120 2.62e+08  262.129   0.1
+  smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_7)
+                                       8.58e-03 4.53e-02 2.57e+08  257.172   0.1
+  add_neg_mean/myFP_Adder/Convert7/Convert/add_388 (NLC_1ch_DW01_add_3)
+                                       8.15e-03 8.12e-02 2.05e+08  204.944   0.1
+  add_neg_mean/myFP_Adder/Convert7/Convert/add_388_2 (NLC_1ch_DW01_add_2)
+                                       8.14e-03 8.11e-02 2.01e+08  201.537   0.1
+  smc_float_adder/myFP_Adder/Convert7/Convert/add_388 (NLC_1ch_DW01_add_1)
+                                       1.92e-03 1.85e-02 2.02e+08  201.716   0.1
+  smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2 (NLC_1ch_DW01_add_0)
+                                       1.90e-03 1.85e-02 1.98e+08  198.440   0.1
+  add_neg_mean/myFP_Adder/Negate_block.Negate/sub_1945 (NLC_1ch_DW01_sub_6)
+                                       2.24e-02    0.145 3.47e+08  347.086   0.2
+  add_neg_mean/myFP_Adder/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_5)
+                                       2.94e-02    0.189 3.49e+08  349.209   0.2
+  smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945 (NLC_1ch_DW01_sub_4)
+                                       5.70e-03 3.45e-02 3.41e+08  340.643   0.2
+  smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_3)
+                                       5.85e-03 3.39e-02 3.46e+08  345.572   0.2
+  add_neg_mean/myFP_Adder/Shifter1_block.Shifter1/sra_1974 (NLC_1ch_DW_rightsh_4)
+                                          0.151    0.740 5.80e+08  580.685   0.3
+  add_neg_mean/myFP_Adder/Shifter2_block.Shifter2/sra_1974 (NLC_1ch_DW_rightsh_3)
+                                          0.205    1.026 6.42e+08  643.675   0.3
+  smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974 (NLC_1ch_DW_rightsh_2)
+                                       3.92e-02    0.180 6.38e+08  637.999   0.3
+  smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974 (NLC_1ch_DW_rightsh_1)
+                                       1.84e-02 8.25e-02 6.54e+08  653.912   0.3
+  add_neg_mean/myFP_Adder/Shifter3_block.Shifter3/sla_1972 (NLC_1ch_DW_leftsh_2)
+                                       3.78e-02    0.372 3.49e+08  349.061   0.2
+  smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972 (NLC_1ch_DW_leftsh_1)
+                                       1.10e-02 9.51e-02 3.47e+08  347.081   0.2
+  smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_1)
+                                       9.91e-05 3.29e-04 1.97e+08  196.676   0.1
+  smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002 (NLC_1ch_DW_leftsh_0)
+                                       3.31e-02    0.108 6.97e+08  697.611   0.3
+1
