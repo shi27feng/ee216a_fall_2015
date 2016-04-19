@@ -1,0 +1,390 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'NLC_1ch' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 2
+        -max_paths 10
+Design : NLC_1ch
+Version: G-2012.06-SP1
+Date   : Sat Apr 16 21:21:00 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ff1p16vn40c   Library: saed32rvt_ff1p16vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT0/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT1/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT1/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT1/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT1/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT1/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT1/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT1/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT1/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT1/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT1/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT1/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT1/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT2/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT2/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT2/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT2/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT2/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT2/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT2/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT2/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT2/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT2/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT2/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT2/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT3/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT3/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT3/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT3/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT3/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT3/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT3/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT3/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT3/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT3/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT3/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT3/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT4/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT4/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT4/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT4/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT4/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT4/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: UUT4/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT4/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT4/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT4/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT4/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT4/smc_float_multiplier/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+1

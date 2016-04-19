@@ -1,0 +1,313 @@
+ 
+****************************************
+Report : constraint
+        -verbose
+Design : NLC_1ch
+Version: G-2012.06-SP1
+Date   : Sat Apr 16 21:23:17 2016
+****************************************
+
+
+  Startpoint: UUT0/smc_float_multiplier/myFP_Multiplier/Delay1_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+  NLC_1ch_DW_mult_uns_62
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay1_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay1_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX1_RVT)
+                                                          0.04       0.04 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1202/Y (INVX1_RVT)
+                                                          0.02       0.06 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1605/Y (INVX1_RVT)
+                                                          0.02       0.08 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2813/Y (AO21X1_RVT)
+                                                          0.03       0.11 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2683/Y (INVX1_RVT)
+                                                          0.01       0.11 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2812/Y (NAND2X0_RVT)
+                                                          0.01       0.13 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2811/Y (AO22X1_RVT)
+                                                          0.02       0.15 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2810/Y (OR2X1_RVT)
+                                                          0.02       0.17 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2809/Y (AO22X1_RVT)
+                                                          0.02       0.19 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2769/Y (OR2X1_RVT)
+                                                          0.02       0.21 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2768/Y (AO22X1_RVT)
+                                                          0.02       0.24 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2741/Y (OR2X1_RVT)
+                                                          0.02       0.25 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2740/Y (AO22X1_RVT)
+                                                          0.02       0.28 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2735/Y (OR2X1_RVT)
+                                                          0.02       0.30 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2734/Y (AO22X1_RVT)
+                                                          0.02       0.32 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2729/Y (OR2X1_RVT)
+                                                          0.02       0.34 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2728/Y (AO22X1_RVT)
+                                                          0.02       0.36 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2713/Y (OR2X1_RVT)
+                                                          0.02       0.38 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2712/Y (AO22X1_RVT)
+                                                          0.02       0.41 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2695/Y (OR2X1_RVT)
+                                                          0.02       0.43 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2694/Y (AO22X1_RVT)
+                                                          0.02       0.45 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2673/Y (OR2X1_RVT)
+                                                          0.02       0.47 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2672/Y (AO22X1_RVT)
+                                                          0.02       0.49 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2652/Y (OR2X1_RVT)
+                                                          0.02       0.51 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2651/Y (AO22X1_RVT)
+                                                          0.02       0.53 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2631/Y (OR2X1_RVT)
+                                                          0.02       0.55 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2630/Y (AO22X1_RVT)
+                                                          0.02       0.58 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2605/Y (OR2X1_RVT)
+                                                          0.02       0.60 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2604/Y (AO22X1_RVT)
+                                                          0.02       0.62 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2580/Y (OR2X1_RVT)
+                                                          0.02       0.64 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2579/Y (AO22X1_RVT)
+                                                          0.02       0.66 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2555/Y (OR2X1_RVT)
+                                                          0.02       0.68 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2554/Y (AO22X1_RVT)
+                                                          0.02       0.70 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2525/Y (OR2X1_RVT)
+                                                          0.02       0.72 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2524/Y (AO22X1_RVT)
+                                                          0.02       0.75 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2496/Y (OR2X1_RVT)
+                                                          0.02       0.77 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2495/Y (AO22X1_RVT)
+                                                          0.02       0.79 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2467/Y (OR2X1_RVT)
+                                                          0.02       0.81 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2466/Y (AO22X1_RVT)
+                                                          0.02       0.83 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2433/Y (OR2X1_RVT)
+                                                          0.02       0.85 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2432/Y (AO22X1_RVT)
+                                                          0.02       0.88 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2400/Y (OR2X1_RVT)
+                                                          0.02       0.89 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2399/Y (AO22X1_RVT)
+                                                          0.02       0.92 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2367/Y (OR2X1_RVT)
+                                                          0.02       0.94 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2366/Y (AO22X1_RVT)
+                                                          0.02       0.96 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2333/Y (OR2X1_RVT)
+                                                          0.02       0.98 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2332/Y (AO22X1_RVT)
+                                                          0.02       1.00 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1498/Y (XOR2X1_RVT)
+                                                          0.04       1.05 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2331/Y (AO222X1_RVT)
+                                                          0.03       1.07 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1679/Y (XOR2X1_RVT)
+                                                          0.04       1.11 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2662/Y (INVX1_RVT)
+                                                          0.00       1.11 f
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2300/Y (NAND2X0_RVT)
+                                                          0.01       1.13 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2299/Y (AO22X1_RVT)
+                                                          0.02       1.15 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2269/Y (OR2X1_RVT)
+                                                          0.02       1.17 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2268/Y (AO22X1_RVT)
+                                                          0.02       1.19 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2239/Y (OR2X1_RVT)
+                                                          0.02       1.21 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2238/Y (AO22X1_RVT)
+                                                          0.02       1.23 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2209/Y (OR2X1_RVT)
+                                                          0.02       1.25 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2208/Y (AO22X1_RVT)
+                                                          0.02       1.28 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2180/Y (OR2X1_RVT)
+                                                          0.02       1.30 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2179/Y (AO22X1_RVT)
+                                                          0.02       1.32 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2152/Y (OR2X1_RVT)
+                                                          0.02       1.34 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2151/Y (AO22X1_RVT)
+                                                          0.02       1.36 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2126/Y (OR2X1_RVT)
+                                                          0.02       1.38 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2125/Y (AO22X1_RVT)
+                                                          0.02       1.40 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2101/Y (OR2X1_RVT)
+                                                          0.02       1.42 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2100/Y (AO22X1_RVT)
+                                                          0.02       1.44 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2077/Y (OR2X1_RVT)
+                                                          0.02       1.46 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2076/Y (AO22X1_RVT)
+                                                          0.02       1.49 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2055/Y (OR2X1_RVT)
+                                                          0.02       1.51 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2054/Y (AO22X1_RVT)
+                                                          0.02       1.53 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2034/Y (OR2X1_RVT)
+                                                          0.02       1.55 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2033/Y (AO22X1_RVT)
+                                                          0.02       1.57 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2014/Y (OR2X1_RVT)
+                                                          0.02       1.59 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U2013/Y (AO22X1_RVT)
+                                                          0.02       1.61 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1996/Y (OR2X1_RVT)
+                                                          0.02       1.63 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1995/Y (AO22X1_RVT)
+                                                          0.02       1.66 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1979/Y (OR2X1_RVT)
+                                                          0.02       1.67 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1978/Y (AO22X1_RVT)
+                                                          0.02       1.70 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1963/Y (OR2X1_RVT)
+                                                          0.02       1.72 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1962/Y (AO22X1_RVT)
+                                                          0.02       1.74 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1948/Y (OR2X1_RVT)
+                                                          0.02       1.76 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1947/Y (AO22X1_RVT)
+                                                          0.02       1.78 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1935/Y (OR2X1_RVT)
+                                                          0.02       1.80 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1934/Y (AO22X1_RVT)
+                                                          0.02       1.82 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1923/Y (OR2X1_RVT)
+                                                          0.02       1.84 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1922/Y (AO22X1_RVT)
+                                                          0.02       1.87 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1913/Y (OR2X1_RVT)
+                                                          0.02       1.89 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1912/Y (AO22X1_RVT)
+                                                          0.02       1.91 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1904/Y (OR2X1_RVT)
+                                                          0.02       1.93 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1903/Y (AO22X1_RVT)
+                                                          0.02       1.95 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1896/Y (OR2X1_RVT)
+                                                          0.02       1.97 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1895/Y (AO22X1_RVT)
+                                                          0.02       1.99 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1890/Y (OR2X1_RVT)
+                                                          0.02       2.01 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1889/Y (AO22X1_RVT)
+                                                          0.02       2.04 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1888/Y (OR2X1_RVT)
+                                                          0.02       2.05 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1887/Y (AO22X1_RVT)
+                                                          0.02       2.07 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/mult_492/U1583/Y (XNOR3X1_RVT)
+                                                          0.06       2.13 r
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       2.13 r
+  data arrival time                                                  2.13
+
+  clock clk (rise edge)                                 162.76     162.76
+  clock network delay (ideal)                             0.00     162.76
+  clock uncertainty                                      -0.10     162.66
+  UUT0/smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r
+  library setup time                                     -0.04     162.62
+  data required time                                               162.62
+  --------------------------------------------------------------------------
+  data required time                                               162.62
+  data arrival time                                                 -2.13
+  --------------------------------------------------------------------------
+  slack (MET)                                                      160.49
+
+
+  Startpoint: UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            2000000               saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00 #     0.00 r
+  UUT0/multi_std/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[2][47]/QN (DFFSSRX1_RVT)
+                                                          0.04       0.04 f
+  UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/SETB (DFFSSRX1_RVT)
+                                                          0.14       0.18 f
+  data arrival time                                                  0.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  UUT0/multi_std/myFP_Multiplier/Delay5_block/GenBlock.theDelay/outreg_reg[47]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.01       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+    Net: UUT0/multi_std/myFP_Multiplier/N_35[22]
+
+    max_transition         0.04
+  - Transition Time        0.04
+  ------------------------------
+    Slack                  0.00  (MET)
+
+
+    Net: UUT0/fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972/n480
+
+    max_capacitance        8.00
+  - Capacitance            8.00
+  ------------------------------
+    Slack                  0.00  (MET)
+
+
+    Design: NLC_1ch
+
+    max_area               0.00
+  - Current Area       1915828.88
+  ------------------------------
+    Slack              -1915828.88  (VIOLATED)
+
+
+Min pulse width constraints
+
+                       Required      Actual
+  Pin                pulse width   pulse width   Slack           Scenario
+--------------------------------------------------------------------------------
+  UUT0/add_neg_mean/myFP_Adder/Delay17_block/GenBlock.theDelay/outreg_reg[24]/CLK(high)
+                      0.03         81.38         81.35 (MET)
+
+1
