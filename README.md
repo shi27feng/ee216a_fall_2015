@@ -2,10 +2,15 @@
 # 32-channel ADC Non-linearity Correction Engine
 
 Number of ADC channels: 32
+
 ADC raw resolution: 21 bits
+
 ENOB: 14 bits
+
 ADC sampling rate: 6 KHz
+
 System clock frequency: 6.144 MHz
+
 
 In the first plan, I started with one channel correction engine and then used excel and python to generate the other 31 channels that are identical to the first one channel. 2*32 SMC_fp (synphony model compiler floating point) adders and 2*32 SMC_fp multipliers are used. After synthesis, area is 1.92e+06 um^2 and power is 2.35e+06 uW.
 
