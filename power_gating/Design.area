@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : NLC_1ch
+Version: F-2011.09-SP5-2
+Date   : Sat Apr 23 22:21:50 2016
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                        55237
+Number of nets:                         92685
+Number of cells:                        41932
+Number of combinational cells:          41180
+Number of sequential cells:               746
+Number of macros:                           0
+Number of buf/inv:                       2345
+Number of references:                      47
+
+Combinational area:       112680.333652
+Buf/Inv area:             4542.061723
+Noncombinational area:    22539.015418
+Net Interconnect area:    79636.356579 
+
+Total cell area:          135219.349070
+Total area:               214855.705649
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  --------------------
+NLC_1ch                           135219.3491    100.0  104985.8699   4945.6424  0.0000  NLC_1ch
+fp_to_smc_float                     1214.3000      0.9     676.5313    537.7687  0.0000  fp_to_smc_float
+reg1                                6766.3301      5.0       0.0000   6766.3301  0.0000  reg_32
+reg2                                3383.1650      2.5       0.0000   3383.1650  0.0000  reg_16
+smc_float_adder                     6421.7107      4.7    2512.9759   3908.7348  0.0000  smc_float_adder
+smc_float_multiplier                6232.8816      4.6    3911.0220   2321.8596  0.0000  smc_float_multiplier
+smc_float_to_fp                     1269.4493      0.9     593.9345    675.5148  0.0000  smc_float_to_fp
+--------------------------------  -----------  -------  -----------  ----------  ------  --------------------
+Total                                                   112680.3337  22539.0154  0.0000
+
+1

@@ -1,0 +1,168 @@
+ 
+****************************************
+Report : resources
+Design : NLC_1ch
+Version: F-2011.09-SP5-2
+Date   : Sat Apr 23 22:22:21 2016
+****************************************
+
+
+Resource Report for this hierarchy in file ./NLC_1ch.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| add_x_8        | DW01_inc       | width=5    | add_218                    |
+| add_x_9        | DW01_inc       | width=4    | add_221                    |
+| lte_x_10       | DW_cmp         | width=5    | lte_222                    |
+| sub_x_14       | DW01_sub       | width=6    | sub_230                    |
+| lt_x_17        | DW_cmp         | width=21   | lt_275                     |
+| gte_x_18       | DW_cmp         | width=21   | gte_270                    |
+| lt_x_20        | DW_cmp         | width=21   | lt_288                     |
+| gte_x_21       | DW_cmp         | width=21   | gte_283                    |
+| lt_x_23        | DW_cmp         | width=21   | lt_301                     |
+| gte_x_24       | DW_cmp         | width=21   | gte_296                    |
+| lt_x_26        | DW_cmp         | width=21   | lt_314                     |
+| gte_x_27       | DW_cmp         | width=21   | gte_309                    |
+| lt_x_29        | DW_cmp         | width=21   | lt_327                     |
+| gte_x_30       | DW_cmp         | width=21   | gte_322                    |
+| lt_x_32        | DW_cmp         | width=21   | lt_340                     |
+| gte_x_33       | DW_cmp         | width=21   | gte_335                    |
+| lt_x_35        | DW_cmp         | width=21   | lt_353                     |
+| gte_x_36       | DW_cmp         | width=21   | gte_348                    |
+| lt_x_38        | DW_cmp         | width=21   | lt_366                     |
+| gte_x_39       | DW_cmp         | width=21   | gte_361                    |
+| lt_x_41        | DW_cmp         | width=21   | lt_379                     |
+| gte_x_42       | DW_cmp         | width=21   | gte_374                    |
+| lt_x_44        | DW_cmp         | width=21   | lt_392                     |
+| gte_x_45       | DW_cmp         | width=21   | gte_387                    |
+| lt_x_47        | DW_cmp         | width=21   | lt_405                     |
+| gte_x_48       | DW_cmp         | width=21   | gte_400                    |
+| lt_x_50        | DW_cmp         | width=21   | lt_418                     |
+| gte_x_51       | DW_cmp         | width=21   | gte_413                    |
+| lt_x_53        | DW_cmp         | width=21   | lt_431                     |
+| gte_x_54       | DW_cmp         | width=21   | gte_426                    |
+| lt_x_56        | DW_cmp         | width=21   | lt_444                     |
+| gte_x_57       | DW_cmp         | width=21   | gte_439                    |
+| lt_x_59        | DW_cmp         | width=21   | lt_457                     |
+| gte_x_60       | DW_cmp         | width=21   | gte_452                    |
+| lt_x_62        | DW_cmp         | width=21   | lt_470                     |
+| gte_x_63       | DW_cmp         | width=21   | gte_465                    |
+| lt_x_65        | DW_cmp         | width=21   | lt_483                     |
+| gte_x_66       | DW_cmp         | width=21   | gte_478                    |
+| lt_x_68        | DW_cmp         | width=21   | lt_496                     |
+| gte_x_69       | DW_cmp         | width=21   | gte_491                    |
+| lt_x_71        | DW_cmp         | width=21   | lt_509                     |
+| gte_x_72       | DW_cmp         | width=21   | gte_504                    |
+| lt_x_74        | DW_cmp         | width=21   | lt_522                     |
+| gte_x_75       | DW_cmp         | width=21   | gte_517                    |
+| lt_x_77        | DW_cmp         | width=21   | lt_535                     |
+| gte_x_78       | DW_cmp         | width=21   | gte_530                    |
+| lt_x_80        | DW_cmp         | width=21   | lt_548                     |
+| gte_x_81       | DW_cmp         | width=21   | gte_543                    |
+| lt_x_83        | DW_cmp         | width=21   | lt_561                     |
+| gte_x_84       | DW_cmp         | width=21   | gte_556                    |
+| lt_x_86        | DW_cmp         | width=21   | lt_574                     |
+| gte_x_87       | DW_cmp         | width=21   | gte_569                    |
+| lt_x_89        | DW_cmp         | width=21   | lt_587                     |
+| gte_x_90       | DW_cmp         | width=21   | gte_582                    |
+| lt_x_92        | DW_cmp         | width=21   | lt_600                     |
+| gte_x_93       | DW_cmp         | width=21   | gte_595                    |
+| lt_x_95        | DW_cmp         | width=21   | lt_613                     |
+| gte_x_96       | DW_cmp         | width=21   | gte_608                    |
+| lt_x_98        | DW_cmp         | width=21   | lt_626                     |
+| gte_x_99       | DW_cmp         | width=21   | gte_621                    |
+| lt_x_101       | DW_cmp         | width=21   | lt_639                     |
+| gte_x_102      | DW_cmp         | width=21   | gte_634                    |
+| lt_x_104       | DW_cmp         | width=21   | lt_652                     |
+| gte_x_105      | DW_cmp         | width=21   | gte_647                    |
+| lt_x_107       | DW_cmp         | width=21   | lt_665                     |
+| gte_x_108      | DW_cmp         | width=21   | gte_660                    |
+| lt_x_110       | DW_cmp         | width=21   | lt_678                     |
+| gte_x_111      | DW_cmp         | width=21   | gte_673                    |
+| sub_x_113      | DW01_sub       | width=6    | sub_686                    |
+| add_x_147      | DW01_add       | width=6    | add_1014                   |
+| sub_x_181      | DW01_sub       | width=6    | sub_1342                   |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_x_8            | DW01_inc         | apparch (area)     |                |
+| add_x_9            | DW01_inc         | apparch (area)     |                |
+| lte_x_10           | DW_cmp           | apparch (area)     |                |
+| sub_x_14           | DW01_sub         | apparch (area)     |                |
+| lt_x_17            | DW_cmp           | apparch (area)     |                |
+| gte_x_18           | DW_cmp           | apparch (area)     |                |
+| lt_x_20            | DW_cmp           | apparch (area)     |                |
+| gte_x_21           | DW_cmp           | apparch (area)     |                |
+| lt_x_23            | DW_cmp           | apparch (area)     |                |
+| gte_x_24           | DW_cmp           | apparch (area)     |                |
+| lt_x_26            | DW_cmp           | apparch (area)     |                |
+| gte_x_27           | DW_cmp           | apparch (area)     |                |
+| lt_x_29            | DW_cmp           | apparch (area)     |                |
+| gte_x_30           | DW_cmp           | apparch (area)     |                |
+| lt_x_32            | DW_cmp           | apparch (area)     |                |
+| gte_x_33           | DW_cmp           | apparch (area)     |                |
+| lt_x_35            | DW_cmp           | apparch (area)     |                |
+| gte_x_36           | DW_cmp           | apparch (area)     |                |
+| lt_x_38            | DW_cmp           | apparch (area)     |                |
+| gte_x_39           | DW_cmp           | apparch (area)     |                |
+| lt_x_41            | DW_cmp           | apparch (area)     |                |
+| gte_x_42           | DW_cmp           | apparch (area)     |                |
+| lt_x_44            | DW_cmp           | apparch (area)     |                |
+| gte_x_45           | DW_cmp           | apparch (area)     |                |
+| lt_x_47            | DW_cmp           | apparch (area)     |                |
+| gte_x_48           | DW_cmp           | apparch (area)     |                |
+| lt_x_50            | DW_cmp           | apparch (area)     |                |
+| gte_x_51           | DW_cmp           | apparch (area)     |                |
+| lt_x_53            | DW_cmp           | apparch (area)     |                |
+| gte_x_54           | DW_cmp           | apparch (area)     |                |
+| lt_x_56            | DW_cmp           | apparch (area)     |                |
+| gte_x_57           | DW_cmp           | apparch (area)     |                |
+| lt_x_59            | DW_cmp           | apparch (area)     |                |
+| gte_x_60           | DW_cmp           | apparch (area)     |                |
+| lt_x_62            | DW_cmp           | apparch (area)     |                |
+| gte_x_63           | DW_cmp           | apparch (area)     |                |
+| lt_x_65            | DW_cmp           | apparch (area)     |                |
+| gte_x_66           | DW_cmp           | apparch (area)     |                |
+| lt_x_68            | DW_cmp           | apparch (area)     |                |
+| gte_x_69           | DW_cmp           | apparch (area)     |                |
+| lt_x_71            | DW_cmp           | apparch (area)     |                |
+| gte_x_72           | DW_cmp           | apparch (area)     |                |
+| lt_x_74            | DW_cmp           | apparch (area)     |                |
+| gte_x_75           | DW_cmp           | apparch (area)     |                |
+| lt_x_77            | DW_cmp           | apparch (area)     |                |
+| gte_x_78           | DW_cmp           | apparch (area)     |                |
+| lt_x_80            | DW_cmp           | apparch (area)     |                |
+| gte_x_81           | DW_cmp           | apparch (area)     |                |
+| lt_x_83            | DW_cmp           | apparch (area)     |                |
+| gte_x_84           | DW_cmp           | apparch (area)     |                |
+| lt_x_86            | DW_cmp           | apparch (area)     |                |
+| gte_x_87           | DW_cmp           | apparch (area)     |                |
+| lt_x_89            | DW_cmp           | apparch (area)     |                |
+| gte_x_90           | DW_cmp           | apparch (area)     |                |
+| lt_x_92            | DW_cmp           | apparch (area)     |                |
+| gte_x_93           | DW_cmp           | apparch (area)     |                |
+| lt_x_95            | DW_cmp           | apparch (area)     |                |
+| gte_x_96           | DW_cmp           | apparch (area)     |                |
+| lt_x_98            | DW_cmp           | apparch (area)     |                |
+| gte_x_99           | DW_cmp           | apparch (area)     |                |
+| lt_x_101           | DW_cmp           | apparch (area)     |                |
+| gte_x_102          | DW_cmp           | apparch (area)     |                |
+| lt_x_104           | DW_cmp           | apparch (area)     |                |
+| gte_x_105          | DW_cmp           | apparch (area)     |                |
+| lt_x_107           | DW_cmp           | apparch (area)     |                |
+| gte_x_108          | DW_cmp           | apparch (area)     |                |
+| lt_x_110           | DW_cmp           | apparch (area)     |                |
+| gte_x_111          | DW_cmp           | apparch (area)     |                |
+| sub_x_113          | DW01_sub         | apparch (area)     |                |
+| add_x_147          | DW01_add         | apparch (area)     |                |
+| sub_x_181          | DW01_sub         | apparch (area)     |                |
+===============================================================================
+
+
+No multiplexors to report
+1

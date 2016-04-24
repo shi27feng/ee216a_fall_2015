@@ -1,0 +1,42 @@
+Loading db file '/w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : NLC_1ch
+Version: F-2011.09-SP5-2
+Date   : Sat Apr 23 22:22:20 2016
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+NLC_1ch                                   3.371  137.152 6.30e+09 6.44e+03 100.0
+  smc_float_to_fp (smc_float_to_fp)    1.70e-02    4.616 7.16e+07   76.237   1.2
+  reg2 (reg_16)                        8.85e-04   17.023 2.43e+08  260.261   4.0
+  smc_float_adder (smc_float_adder)       0.529   25.486 3.85e+08  410.928   6.4
+  smc_float_multiplier (smc_float_multiplier)
+                                          1.084   17.074 3.54e+08  372.266   5.8
+  reg1 (reg_32)                           0.200   39.156 5.15e+08  554.255   8.6
+  fp_to_smc_float (fp_to_smc_float)       0.157    3.695 6.74e+07   71.235   1.1
+1

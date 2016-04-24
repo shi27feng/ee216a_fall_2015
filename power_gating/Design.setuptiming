@@ -1,0 +1,934 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 2
+        -max_paths 10
+Design : NLC_1ch
+Version: F-2011.09-SP5-2
+Date   : Sat Apr 23 22:21:50 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+Wire Load Model Mode: enclosed
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/CO (FADDX1_RVT)        0.09       4.87 r    0.95
+  smc_float_multiplier/intadd_1/U3/CO (FADDX1_RVT)        0.10       4.97 r    0.95
+  smc_float_multiplier/U9/S (FADDX1_RVT)                  0.15       5.12 f    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       5.12 f    0.95
+  data arrival time                                                  5.12      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.10     162.56      
+  data required time                                               162.56      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.56      
+  data arrival time                                                 -5.12      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.44      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/CO (FADDX1_RVT)        0.09       4.87 r    0.95
+  smc_float_multiplier/intadd_1/U3/CO (FADDX1_RVT)        0.10       4.97 r    0.95
+  smc_float_multiplier/U9/S (FADDX1_RVT)                  0.15       5.12 f    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       5.12 f    0.95
+  data arrival time                                                  5.12      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][47]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.10     162.56      
+  data required time                                               162.56      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.56      
+  data arrival time                                                 -5.12      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.44      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/CO (FADDX1_RVT)        0.09       4.87 r    0.95
+  smc_float_multiplier/intadd_1/U3/S (FADDX1_RVT)         0.14       5.01 f    0.95
+  smc_float_multiplier/U146/Y (INVX1_RVT)                 0.03       5.04 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       5.04 r    0.95
+  data arrival time                                                  5.04      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -5.04      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.50      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/CO (FADDX1_RVT)        0.09       4.87 r    0.95
+  smc_float_multiplier/intadd_1/U3/S (FADDX1_RVT)         0.14       5.01 f    0.95
+  smc_float_multiplier/U146/Y (INVX1_RVT)                 0.03       5.04 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       5.04 r    0.95
+  data arrival time                                                  5.04      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][46]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -5.04      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.50      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/S (FADDX1_RVT)         0.14       4.92 f    0.95
+  smc_float_multiplier/U145/Y (INVX1_RVT)                 0.03       4.94 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.94 r    0.95
+  data arrival time                                                  4.94      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.94      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.60      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/CO (FADDX1_RVT)        0.09       4.78 r    0.95
+  smc_float_multiplier/intadd_1/U4/S (FADDX1_RVT)         0.14       4.92 f    0.95
+  smc_float_multiplier/U145/Y (INVX1_RVT)                 0.03       4.94 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.94 r    0.95
+  data arrival time                                                  4.94      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][45]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.94      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.60      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/S (FADDX1_RVT)         0.14       4.82 f    0.95
+  smc_float_multiplier/U144/Y (INVX1_RVT)                 0.03       4.85 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.85 r    0.95
+  data arrival time                                                  4.85      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.85      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.69      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/CO (FADDX1_RVT)        0.09       4.68 r    0.95
+  smc_float_multiplier/intadd_1/U5/S (FADDX1_RVT)         0.14       4.82 f    0.95
+  smc_float_multiplier/U144/Y (INVX1_RVT)                 0.03       4.85 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.85 r    0.95
+  data arrival time                                                  4.85      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][44]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.85      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.69      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/S (FADDX1_RVT)         0.14       4.73 f    0.95
+  smc_float_multiplier/U143/Y (INVX1_RVT)                 0.03       4.76 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.76 r    0.95
+  data arrival time                                                  4.76      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.76      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.78      
+
+
+  Startpoint: smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NLC_1ch            140000                saed32rvt_ff1p16vn40c
+  smc_float_multiplier
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/CLK (DFFSSRX2_RVT)
+                                                          0.00 #     0.00 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay_syn_block/GenBlock.theDelay/outreg_reg[2]/Q (DFFSSRX2_RVT)
+                                                          0.19       0.19 r    0.95
+  smc_float_multiplier/U51/Y (INVX1_RVT)                  0.04       0.22 f    0.95
+  smc_float_multiplier/U230/Y (NBUFFX2_RVT)               0.07       0.30 f    0.95
+  smc_float_multiplier/U48/Y (AO221X1_RVT)                0.13       0.43 f    0.95
+  smc_float_multiplier/U211/Y (NBUFFX2_RVT)               0.08       0.51 f    0.95
+  smc_float_multiplier/U1039/Y (OA22X1_RVT)               0.09       0.59 f    0.95
+  smc_float_multiplier/U1040/Y (NAND2X0_RVT)              0.04       0.64 r    0.95
+  smc_float_multiplier/U1041/SO (HADDX1_RVT)              0.11       0.75 f    0.95
+  smc_float_multiplier/U1042/Y (NAND2X0_RVT)              0.04       0.79 r    0.95
+  smc_float_multiplier/U1043/Y (NAND2X0_RVT)              0.04       0.83 f    0.95
+  smc_float_multiplier/U1044/Y (NAND2X0_RVT)              0.07       0.90 r    0.95
+  smc_float_multiplier/intadd_1/U45/CO (FADDX1_RVT)       0.11       1.02 r    0.95
+  smc_float_multiplier/intadd_1/U44/CO (FADDX1_RVT)       0.09       1.11 r    0.95
+  smc_float_multiplier/intadd_1/U43/CO (FADDX1_RVT)       0.09       1.21 r    0.95
+  smc_float_multiplier/intadd_1/U42/CO (FADDX1_RVT)       0.09       1.30 r    0.95
+  smc_float_multiplier/intadd_1/U41/CO (FADDX1_RVT)       0.09       1.39 r    0.95
+  smc_float_multiplier/intadd_1/U40/CO (FADDX1_RVT)       0.09       1.49 r    0.95
+  smc_float_multiplier/intadd_1/U39/CO (FADDX1_RVT)       0.09       1.58 r    0.95
+  smc_float_multiplier/intadd_1/U38/CO (FADDX1_RVT)       0.09       1.68 r    0.95
+  smc_float_multiplier/intadd_1/U37/CO (FADDX1_RVT)       0.09       1.77 r    0.95
+  smc_float_multiplier/intadd_1/U36/CO (FADDX1_RVT)       0.09       1.86 r    0.95
+  smc_float_multiplier/intadd_1/U35/CO (FADDX1_RVT)       0.09       1.96 r    0.95
+  smc_float_multiplier/intadd_1/U34/CO (FADDX1_RVT)       0.09       2.05 r    0.95
+  smc_float_multiplier/intadd_1/U33/CO (FADDX1_RVT)       0.09       2.15 r    0.95
+  smc_float_multiplier/intadd_1/U32/CO (FADDX1_RVT)       0.09       2.24 r    0.95
+  smc_float_multiplier/intadd_1/U31/CO (FADDX1_RVT)       0.09       2.33 r    0.95
+  smc_float_multiplier/intadd_1/U30/CO (FADDX1_RVT)       0.09       2.43 r    0.95
+  smc_float_multiplier/intadd_1/U29/CO (FADDX1_RVT)       0.09       2.52 r    0.95
+  smc_float_multiplier/intadd_1/U28/CO (FADDX1_RVT)       0.09       2.62 r    0.95
+  smc_float_multiplier/intadd_1/U27/CO (FADDX1_RVT)       0.09       2.71 r    0.95
+  smc_float_multiplier/intadd_1/U26/CO (FADDX1_RVT)       0.09       2.80 r    0.95
+  smc_float_multiplier/intadd_1/U25/CO (FADDX1_RVT)       0.09       2.90 r    0.95
+  smc_float_multiplier/intadd_1/U24/CO (FADDX1_RVT)       0.09       2.99 r    0.95
+  smc_float_multiplier/intadd_1/U23/CO (FADDX1_RVT)       0.09       3.09 r    0.95
+  smc_float_multiplier/intadd_1/U22/CO (FADDX1_RVT)       0.09       3.18 r    0.95
+  smc_float_multiplier/intadd_1/U21/CO (FADDX1_RVT)       0.09       3.27 r    0.95
+  smc_float_multiplier/intadd_1/U20/CO (FADDX1_RVT)       0.09       3.37 r    0.95
+  smc_float_multiplier/intadd_1/U19/CO (FADDX1_RVT)       0.09       3.46 r    0.95
+  smc_float_multiplier/intadd_1/U18/CO (FADDX1_RVT)       0.09       3.56 r    0.95
+  smc_float_multiplier/intadd_1/U17/CO (FADDX1_RVT)       0.09       3.65 r    0.95
+  smc_float_multiplier/intadd_1/U16/CO (FADDX1_RVT)       0.09       3.74 r    0.95
+  smc_float_multiplier/intadd_1/U15/CO (FADDX1_RVT)       0.09       3.84 r    0.95
+  smc_float_multiplier/intadd_1/U14/CO (FADDX1_RVT)       0.09       3.93 r    0.95
+  smc_float_multiplier/intadd_1/U13/CO (FADDX1_RVT)       0.09       4.03 r    0.95
+  smc_float_multiplier/intadd_1/U12/CO (FADDX1_RVT)       0.09       4.12 r    0.95
+  smc_float_multiplier/intadd_1/U11/CO (FADDX1_RVT)       0.09       4.21 r    0.95
+  smc_float_multiplier/intadd_1/U10/CO (FADDX1_RVT)       0.09       4.31 r    0.95
+  smc_float_multiplier/intadd_1/U9/CO (FADDX1_RVT)        0.09       4.40 r    0.95
+  smc_float_multiplier/intadd_1/U8/CO (FADDX1_RVT)        0.09       4.50 r    0.95
+  smc_float_multiplier/intadd_1/U7/CO (FADDX1_RVT)        0.09       4.59 r    0.95
+  smc_float_multiplier/intadd_1/U6/S (FADDX1_RVT)         0.14       4.73 f    0.95
+  smc_float_multiplier/U143/Y (INVX1_RVT)                 0.03       4.76 r    0.95
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       4.76 r    0.95
+  data arrival time                                                  4.76      
+
+  clock clk (rise edge)                                 162.76     162.76      
+  clock network delay (ideal)                             0.00     162.76      
+  clock uncertainty                                      -0.10     162.66      
+  smc_float_multiplier/myFP_Multiplier/Delay2_block/GenBlock.theDelay/delayline_reg[0][43]/CLK (DFFSSRX1_RVT)
+                                                          0.00     162.66 r    
+  library setup time                                     -0.12     162.54      
+  data required time                                               162.54      
+  ------------------------------------------------------------------------------------
+  data required time                                               162.54      
+  data arrival time                                                 -4.76      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                      157.78      
+
+
+1
