@@ -9,7 +9,7 @@ Report : timing
         -max_paths 10
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Tue Apr 19 15:29:30 2016
+Date   : Sat Apr 23 18:31:06 2016
 ****************************************
 
  # A fanout number of 1000 was used for high fanout net computations.

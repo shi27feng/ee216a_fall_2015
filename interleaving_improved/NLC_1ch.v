@@ -123,14 +123,14 @@ module NLC_1ch(
 	assign i_multi_1 = (count == 15 || count == 0)? o_adder: o_reg_1;
 	assign i_multi_2 = (count == 15 || count == 0)? recip_stdev: o_reg_2;
 
-	// clock gating
-	wire clk_fp2smc, clk_smc2fp;
-	assign  clk_fp2smc = (count == 15 || count == 0)? clk:0;
-	assign  clk_smc2fp = (count == 11 || count == 12)? clk:0;
+	// // clock gating
+	// wire clk_fp2smc, clk_smc2fp;
+	// assign  clk_fp2smc = (count == 15 || count == 0)? clk:0;
+	// assign  clk_smc2fp = (count == 11 || count == 12)? clk:0;
 
 
 	fp_to_smc_float fp_to_smc_float (
-	  .clk(clk_fp2smc),
+	  .clk(clk),
 	  .GlobalReset(reset),
 	  .y_o_portx(o_smc),
 	  .x_i(i_fp),
@@ -198,7 +198,7 @@ module NLC_1ch(
 	);
 
 	smc_float_to_fp smc_float_to_fp (
-	  .clk(clk_smc2fp),
+	  .clk(clk),
 	  .GlobalReset(reset),
 	  .x_i_porty(o_z),
 	  .y_o(x_lin),

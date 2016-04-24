@@ -3,7 +3,7 @@
 Report : area
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Tue Apr 19 15:29:30 2016
+Date   : Sat Apr 23 18:31:06 2016
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
 
 Number of ports:                        55236
-Number of nets:                         78585
-Number of cells:                        32360
-Number of combinational cells:          28937
+Number of nets:                         78582
+Number of cells:                        32359
+Number of combinational cells:          28936
 Number of sequential cells:              3338
 Number of macros:                           0
-Number of buf/inv:                       4062
-Number of references:                     123
+Number of buf/inv:                       4064
+Number of references:                     122
 
-Combinational area:       98931.144681
-Buf/Inv area:             10368.058956
+Combinational area:       98921.741353
+Buf/Inv area:             10368.567244
 Noncombinational area:    22465.313673
-Net Interconnect area:    55052.159813 
+Net Interconnect area:    55069.919168 
 
-Total cell area:          121396.458354
-Total area:               176448.618167
+Total cell area:          121387.055026
+Total area:               176456.974194
 
 Hierarchical area distribution
 ------------------------------
@@ -35,7 +35,7 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black
                                   Total        Total    national    national    boxes   Design
 --------------------------------  -----------  -------  ----------  ----------  ------  ---------------------
-NLC_1ch                           121396.4584    100.0  80259.9474  22465.3137  0.0000  NLC_1ch
+NLC_1ch                           121387.0550    100.0  80250.5440  22465.3137  0.0000  NLC_1ch
 add_0_root_smc_float_adder/myFP_Adder/add_1190
                                       32.0221      0.0     32.0221      0.0000  0.0000  NLC_1ch_DW01_inc_4
 fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852
@@ -143,6 +143,6 @@ smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945
 smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002
                                      575.3820      0.5    575.3820      0.0000  0.0000  NLC_1ch_DW_leftsh_0
 --------------------------------  -----------  -------  ----------  ----------  ------  ---------------------
-Total                                                   98931.1447  22465.3137  0.0000
+Total                                                   98921.7414  22465.3137  0.0000
 
 1

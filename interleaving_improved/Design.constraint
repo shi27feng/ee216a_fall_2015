@@ -4,7 +4,7 @@ Report : constraint
         -verbose
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Tue Apr 19 15:30:29 2016
+Date   : Sat Apr 23 18:31:31 2016
 ****************************************
 
 
@@ -297,9 +297,9 @@ Date   : Tue Apr 19 15:30:29 2016
     Design: NLC_1ch
 
     max_area               0.00
-  - Current Area       176448.62
+  - Current Area       176456.97
   ------------------------------
-    Slack              -176448.62  (VIOLATED)
+    Slack              -176456.97  (VIOLATED)
 
 
 Min pulse width constraints

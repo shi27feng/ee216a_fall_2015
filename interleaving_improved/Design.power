@@ -9,7 +9,7 @@ Report : power
         -analysis_effort low
 Design : NLC_1ch
 Version: G-2012.06-SP1
-Date   : Tue Apr 19 15:30:28 2016
+Date   : Sat Apr 23 18:31:31 2016
 ****************************************
 
 
@@ -124,9 +124,9 @@ Power-specific unit information :
                                        Switch   Int      Leak     Total
 Hierarchy                              Power    Power    Power    Power    %
 --------------------------------------------------------------------------------
-NLC_1ch                                   8.257  172.907 1.90e+11 1.90e+05 100.0
+NLC_1ch                                   7.836  180.816 1.90e+11 1.90e+05 100.0
   smc_float_multiplier/myFP_Multiplier/mult_492 (NLC_1ch_DW_mult_uns_0)
-                                          1.547    7.255 9.50e+09 9.51e+03   5.0
+                                          1.547    7.254 9.50e+09 9.51e+03   5.0
   add_0_root_smc_float_adder/myFP_Adder/add_1190 (NLC_1ch_DW01_inc_4)
                                        1.93e-03      N/A 8.85e+07   88.489   0.0
   fp_to_smc_float/myFixed_to_FP/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_12)
@@ -196,9 +196,9 @@ NLC_1ch                                   8.257  172.907 1.90e+11 1.90e+05 100.0
   lt_676 (NLC_1ch_DW_cmp_5)            4.04e-02    0.114 1.79e+08  179.183   0.1
   gte_671 (NLC_1ch_DW_cmp_4)           3.94e-02    0.106 1.81e+08  180.762   0.1
   fp_to_smc_float/myFixed_to_FP/Shifter1_block.Shifter1/sla_1972 (NLC_1ch_DW_leftsh_2)
-                                       8.94e-02    0.660 4.45e+08  445.562   0.2
+                                       8.97e-02    0.662 4.45e+08  445.805   0.2
   smc_float_multiplier/myFP_Multiplier/add_170 (NLC_1ch_DW01_add_5)
-                                       9.60e-03 1.66e-02 5.53e+07   55.372   0.0
+                                       9.60e-03 1.66e-02 5.53e+07   55.374   0.0
   smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388 (NLC_1ch_DW01_add_4)
                                        8.21e-03 8.11e-02 1.85e+08  184.736   0.1
   smc_float_multiplier/myFP_Multiplier/Convert2/Convert/add_388_2 (NLC_1ch_DW01_add_3)
@@ -206,29 +206,29 @@ NLC_1ch                                   8.257  172.907 1.90e+11 1.90e+05 100.0
   smc_float_adder/myFP_Adder/add_1128 (NLC_1ch_DW01_inc_0)
                                        2.51e-03      N/A 6.69e+07   66.916   0.0
   smc_float_adder/myFP_Adder/sub_1143 (NLC_1ch_DW01_sub_7)
-                                       1.50e-02 6.24e-02 8.65e+07   86.605   0.0
+                                       1.50e-02 6.24e-02 8.65e+07   86.604   0.0
   smc_float_adder/myFP_Adder/sub_1158 (NLC_1ch_DW01_sub_6)
                                        1.98e-02 7.42e-02 8.61e+07   86.231   0.0
   smc_float_adder/myFP_Adder/add_1173 (NLC_1ch_DW01_add_2)
-                                       4.41e-02    0.118 1.82e+08  181.923   0.1
+                                       4.41e-02    0.118 1.82e+08  181.918   0.1
   smc_float_adder/myFP_Adder/Abs_syn_block.Abs_syn/sub_1852 (NLC_1ch_DW01_sub_5)
-                                       1.67e-02    0.111 2.62e+08  261.961   0.1
+                                       1.66e-02    0.111 2.62e+08  261.960   0.1
   smc_float_adder/myFP_Adder/Convert7/Convert/add_388 (NLC_1ch_DW01_add_1)
-                                       7.69e-03 7.57e-02 2.05e+08  204.882   0.1
+                                       7.68e-03 7.57e-02 2.05e+08  204.880   0.1
   smc_float_adder/myFP_Adder/Convert7/Convert/add_388_2 (NLC_1ch_DW01_add_0)
-                                       7.63e-03 7.55e-02 2.01e+08  201.457   0.1
+                                       7.63e-03 7.54e-02 2.01e+08  201.456   0.1
   smc_float_adder/myFP_Adder/Negate_block.Negate/sub_1945 (NLC_1ch_DW01_sub_4)
-                                       2.07e-02    0.135 3.47e+08  346.916   0.2
+                                       2.07e-02    0.135 3.47e+08  346.917   0.2
   smc_float_adder/myFP_Adder/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_3)
-                                       2.63e-02    0.172 3.49e+08  349.376   0.2
+                                       2.63e-02    0.172 3.49e+08  349.371   0.2
   smc_float_adder/myFP_Adder/Shifter1_block.Shifter1/sra_1974 (NLC_1ch_DW_rightsh_2)
-                                          0.146    0.688 6.42e+08  642.347   0.3
+                                          0.146    0.689 6.42e+08  642.348   0.3
   smc_float_adder/myFP_Adder/Shifter2_block.Shifter2/sra_1974 (NLC_1ch_DW_rightsh_1)
-                                          0.187    0.943 6.44e+08  644.782   0.3
+                                          0.187    0.943 6.44e+08  644.776   0.3
   smc_float_adder/myFP_Adder/Shifter3_block.Shifter3/sla_1972 (NLC_1ch_DW_leftsh_1)
                                        3.48e-02    0.342 3.48e+08  348.607   0.2
   smc_float_to_fp/myFP_to_Fixed/Negate1_block.Negate1/sub_1945 (NLC_1ch_DW01_sub_1)
                                           0.000    0.000 1.97e+08  196.662   0.1
   smc_float_to_fp/myFP_to_Fixed/Shifter2_block.Shifter2/sll_2002 (NLC_1ch_DW_leftsh_0)
-                                       1.79e-04 4.65e-04 6.83e+08  682.835   0.4
+                                       1.81e-02 4.29e-02 6.97e+08  697.495   0.4
 1
